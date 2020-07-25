@@ -242,7 +242,7 @@ main .main3 {
         margin-top: 5%; }
       main .main3 .tex3 .fish span {
         top: 35px;
-        left: 150px;
+        left: 170px;
         position: absolute;
         transform: rotate(-15deg);
         font-family: "Nunito", sans-serif;
@@ -296,7 +296,7 @@ main .main4 {
         margin-top: 5%; }
       main .main4 .tex4 .fish span {
         top: 35px;
-        left: 150px;
+        left: 180px;
         position: absolute;
         transform: rotate(-15deg);
         font-family: "Nunito", sans-serif;
@@ -366,6 +366,51 @@ main .main5 {
               width: 20px;
               height: 17px;
               color: white; }
+    main .main5 .cate .prod-delete {
+      margin-left: 5px;
+      margin-right: 5px;
+      position: relative; }
+      main .main5 .cate .prod-delete .prod-child1 {
+        position: absolute;
+        top: 5px;
+        right: 5px; }
+      main .main5 .cate .prod-delete .add-cart {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 25px; }
+        main .main5 .cate .prod-delete .add-cart .tex {
+          width: 50%; }
+          main .main5 .cate .prod-delete .add-cart .tex h3 {
+            font-size: 18px;
+            font-family: "Nunito", sans-serif; }
+          main .main5 .cate .prod-delete .add-cart .tex span {
+            font-size: 18px;
+            font-family: "Nunito", sans-serif;
+            color: #da585c;
+            font-weight: bold; }
+        main .main5 .cate .prod-delete .add-cart .btn-cart {
+          width: 50%; }
+          main .main5 .cate .prod-delete .add-cart .btn-cart .btn-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 166px;
+            height: 53px;
+            border: none;
+            background-color: #da585c;
+            border-radius: 5px; }
+            main .main5 .cate .prod-delete .add-cart .btn-cart .btn-flex h4 {
+              padding-top: 10px;
+              font-family: "Nunito", sans-serif;
+              font-size: 16px;
+              display: inline;
+              color: white; }
+            main .main5 .cate .prod-delete .add-cart .btn-cart .btn-flex img {
+              padding-left: 2px;
+              width: 20px;
+              height: 17px;
+              color: white; }
     main .main5 .cate .prodImg {
       margin-left: 5px;
       margin-right: 5px;
@@ -423,10 +468,6 @@ main .main5 {
 main .main6 {
   display: flex;
   margin: 12% 10% 6% 10%; }
-  main .main6 .img6 {
-    position: relative; }
-    main .main6 .img6 .img6-1 {
-      position: absolute; }
   main .main6 .tex6 {
     margin-left: 5%; }
     main .main6 .tex6 img {
@@ -452,8 +493,7 @@ main .main6 {
         margin-right: 2%; }
 
 footer {
-  width: 100%;
-  height: 100px; }
+  width: 100%; }
   footer .bg {
     position: absolute;
     z-index: -1;
@@ -465,7 +505,7 @@ footer {
       width: 20%;
       padding-top: 6%;
       margin-left: 5%; }
-      footer .footer-logo .kity-shop .logo {
+      footer .footer-logo .kity-shop .logo img {
         width: 75%;
         height: 50%;
         padding-left: 20%; }
@@ -474,7 +514,7 @@ footer {
     footer .footer-logo .about-us {
       width: 20%;
       padding-top: 5%;
-      margin-left: 5%; }
+      margin-left: 3%; }
       footer .footer-logo .about-us .top {
         font-family: "Nunito", sans-serif;
         font-size: 18px;
@@ -487,7 +527,7 @@ footer {
     footer .footer-logo .quick-link {
       width: 20%;
       padding-top: 5%;
-      margin-left: 5%; }
+      margin-left: 3%; }
       footer .footer-logo .quick-link .top {
         font-family: "Nunito", sans-serif;
         font-size: 18px;
@@ -505,5 +545,237 @@ footer {
         font-size: 16px;
         color: white;
         font-weight: bold; }
+      footer .footer-logo .update-our .inp {
+        display: flex; }
+        footer .footer-logo .update-our .inp .tex {
+          margin-right: 3%; }
+          footer .footer-logo .update-our .inp .tex .ft-inp {
+            border: none;
+            border-radius: 3px;
+            width: 250px;
+            height: 35px;
+            color: #DA585C; }
+        footer .footer-logo .update-our .inp button {
+          border: none;
+          width: 35px;
+          height: 35px;
+          border-radius: 3px; }
+          footer .footer-logo .update-our .inp button img {
+            padding: 5px; }
+
+@media (max-width: 992px) {
+  .slideOfYou .menu .menu-right {
+    opacity: 0; }
+  .slideOfYou .sendUs {
+    font-size: 50px; }
+  .slideOfYou .yourRequest {
+    font-size: 50px; }
+
+  main .main1 {
+    margin-top: 4%;
+    margin-bottom: 8%; }
+    main .main1 .chan .xoay {
+      width: 13%; }
+    main .main1 .chan span {
+      font-size: 25px; }
+    main .main1 .weOffer {
+      font-size: 10px; }
+  main .main2 {
+    opacity: 0;
+    position: absolute; }
+    main .main2 .anh3 {
+      position: absolute; }
+    main .main2 .anh4 {
+      position: absolute; }
+  main .main3 .img3 img {
+    width: 120%; }
+  main .main3 .tex3 {
+    padding-left: 15%;
+    margin-left: 0%;
+    margin-right: 11%; }
+    main .main3 .tex3 h3 {
+      font-size: 20px; }
+    main .main3 .tex3 span {
+      font-size: 10px; }
+    main .main3 .tex3 .price .hr h5 {
+      font-size: 13px;
+      top: 5px; }
+    main .main3 .tex3 .price .hr img {
+      width: 80px; }
+    main .main3 .tex3 .price h3 {
+      padding-top: 5px;
+      font-size: 13px; }
+    main .main3 .tex3 .fish {
+      margin-top: 3%; }
+      main .main3 .tex3 .fish img {
+        width: 50%; }
+      main .main3 .tex3 .fish span {
+        top: 18px;
+        left: 90px;
+        font-size: 10px; }
+  main .main4 {
+    margin-top: 100px;
+    margin-bottom: 30px; }
+    main .main4 .tex4 {
+      padding-left: 10%;
+      margin-left: 3%;
+      margin-right: 16%; }
+      main .main4 .tex4 h3 {
+        font-size: 20px; }
+      main .main4 .tex4 span {
+        font-size: 10px; }
+      main .main4 .tex4 .price .hr h5 {
+        font-size: 13px;
+        top: 5px; }
+      main .main4 .tex4 .price .hr img {
+        width: 80px; }
+      main .main4 .tex4 .price h3 {
+        padding-top: 5px;
+        font-size: 13px; }
+      main .main4 .tex4 .fish {
+        margin-top: 3%; }
+        main .main4 .tex4 .fish img {
+          width: 50%; }
+        main .main4 .tex4 .fish span {
+          top: 20px;
+          left: 92px;
+          font-size: 10px; }
+    main .main4 .img4 img {
+      width: 120%; }
+  main .b-seller {
+    font-size: 25px; }
+    main .b-seller .xoay {
+      width: 10%; }
+  main .main5 .cate .prod-delete {
+    opacity: 0;
+    position: absolute; }
+  main .main5 .cate .prod {
+    width: 50%; }
+    main .main5 .cate .prod .prod-child1 {
+      top: 5px;
+      right: 5px; }
+    main .main5 .cate .prod .prod-child2 {
+      width: 100%; }
+    main .main5 .cate .prod .add-cart {
+      width: 100%; }
+      main .main5 .cate .prod .add-cart .tex {
+        padding-left: 2%;
+        width: 50%; }
+        main .main5 .cate .prod .add-cart .tex h3 {
+          font-size: 15px;
+          margin-bottom: 0px; }
+        main .main5 .cate .prod .add-cart .tex span {
+          font-size: 15px; }
+      main .main5 .cate .prod .add-cart .btn-cart {
+        width: 40%;
+        padding-right: 4%; }
+        main .main5 .cate .prod .add-cart .btn-cart .btn-flex {
+          width: 120px;
+          height: 40px; }
+          main .main5 .cate .prod .add-cart .btn-cart .btn-flex h4 {
+            font-size: 10px; }
+  main .main6 .img6 {
+    width: 250%; }
+    main .main6 .img6 .img6-1 {
+      width: 100%; }
+  main .main6 .tex6 img {
+    width: 13%;
+    padding-top: 5%; }
+  main .main6 .tex6 span {
+    font-size: 10px;
+    margin-top: 20%; }
+  main .main6 .tex6 h3 {
+    font-size: 12px; }
+  main .main6 .tex6 h4 {
+    font-size: 10px; }
+  main .main6 .tex6 .icons-main6 img {
+    width: 5%; }
+
+  footer {
+    height: 150px; }
+    footer .footer-logo {
+      padding-top: 9%; }
+      footer .footer-logo .kity-shop {
+        padding-top: 9%; }
+        footer .footer-logo .kity-shop .icons img {
+          width: 20px;
+          height: 20px; }
+      footer .footer-logo .about-us {
+        width: 30%;
+        margin-left: 5%; }
+        footer .footer-logo .about-us .top {
+          font-size: 16px; }
+        footer .footer-logo .about-us .text1 {
+          font-size: 14px; }
+      footer .footer-logo .quick-link {
+        opacity: 0;
+        width: 5%; }
+        footer .footer-logo .quick-link .top {
+          font-size: 16px; }
+        footer .footer-logo .quick-link .text2 {
+          font-size: 14px; }
+      footer .footer-logo .update-our .inp .tex .ft-inp {
+        width: 135px; } }
+@media (max-width: 576px) {
+  .slideOfYou .sendUs {
+    font-size: 50px; }
+  .slideOfYou .yourRequest {
+    font-size: 50px; }
+
+  footer {
+    height: 120px; }
+    footer .footer-logo {
+      padding-top: 11%; }
+      footer .footer-logo .kity-shop {
+        padding-top: 0%; }
+        footer .footer-logo .kity-shop .logo {
+          margin-top: 20px; }
+          footer .footer-logo .kity-shop .logo img {
+            width: 80%;
+            height: 65%;
+            display: block; }
+        footer .footer-logo .kity-shop .icons {
+          height: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          footer .footer-logo .kity-shop .icons img {
+            width: 10px;
+            height: 10px;
+            padding-left: 1px; }
+      footer .footer-logo .about-us {
+        width: 30%;
+        padding-top: 0%; }
+        footer .footer-logo .about-us .top {
+          opacity: 0;
+          font-size: 0px; }
+        footer .footer-logo .about-us .text1 {
+          font-size: 10px; }
+      footer .footer-logo .quick-link {
+        width: 1%;
+        opacity: 0;
+        padding-top: 0%; }
+        footer .footer-logo .quick-link .top {
+          font-size: 0px; }
+        footer .footer-logo .quick-link .text2 {
+          font-size: 0px; }
+      footer .footer-logo .update-our {
+        width: 30%;
+        padding-top: 0%; }
+        footer .footer-logo .update-our span {
+          visibility: hidden;
+          font-size: 1px; }
+        footer .footer-logo .update-our .inp .tex .ft-inp {
+          width: 80px;
+          height: 20px;
+          font-size: 10px; }
+        footer .footer-logo .update-our .inp button {
+          margin-top: 4px;
+          width: 20px;
+          height: 20px; }
+          footer .footer-logo .update-our .inp button img {
+            width: 15px;
+            height: 15px;
+            padding: 2px; } }
 
 /*# sourceMappingURL=style.css.map */

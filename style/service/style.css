@@ -58,20 +58,21 @@ header {
   font-size: 48px;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
-  margin-top: 10%;
-  margin-bottom: 10%; }
+  margin-top: 6%;
+  margin-bottom: 6%; }
 
 main .main1 {
   background-image: url("../../public/image/service/main1-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 1550px;
-  position: relative; }
+  height: 1650px;
+  position: relative;
+  margin-bottom: 12%; }
   main .main1 .form-img {
     position: absolute;
     width: 71%;
-    height: 1150px;
+    height: 1230px;
     background-color: #da585c;
     margin-left: 15%;
     margin-right: 14%;
@@ -86,7 +87,10 @@ main .main1 {
       font-size: 48px;
       font-family: "Nunito", sans-serif;
       font-weight: bold;
-      color: white; }
+      color: white;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      margin-bottom: 0px; }
     main .main1 .form-img .form-service .form-l-r {
       width: 80%;
       display: flex;
@@ -141,8 +145,8 @@ main .main1 {
             padding: 7%; }
     main .main1 .form-img .form-service .hotline {
       width: 80%;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
       margin-left: 10%;
       margin-right: 10%;
       text-align: center; }
@@ -177,12 +181,13 @@ main .main2 {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 1600px;
-  position: relative; }
+  height: 1700px;
+  position: relative;
+  margin-bottom: 12%; }
   main .main2 .form-img {
     position: absolute;
     width: 71%;
-    height: 1270px;
+    height: 1380px;
     background-color: #da585c;
     margin-left: 15%;
     margin-right: 14%;
@@ -197,7 +202,10 @@ main .main2 {
       font-size: 48px;
       font-family: "Nunito", sans-serif;
       font-weight: bold;
-      color: white; }
+      color: white;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      margin-bottom: 0px; }
     main .main2 .form-img .form-service .form-l-r {
       width: 80%;
       display: flex;
@@ -252,8 +260,8 @@ main .main2 {
             padding: 7%; }
     main .main2 .form-img .form-service .hotline {
       width: 80%;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
       margin-left: 10%;
       margin-right: 10%;
       text-align: center; }
@@ -288,12 +296,13 @@ main .main3 {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 1600px;
-  position: relative; }
+  height: 1700px;
+  position: relative;
+  margin-top: 12%; }
   main .main3 .form-img {
     position: absolute;
     width: 71%;
-    height: 1270px;
+    height: 1350px;
     background-color: #da585c;
     margin-left: 15%;
     margin-right: 14%;
@@ -308,7 +317,10 @@ main .main3 {
       font-size: 48px;
       font-family: "Nunito", sans-serif;
       font-weight: bold;
-      color: white; }
+      color: white;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      margin-bottom: 0px; }
     main .main3 .form-img .form-service .form-l-r {
       width: 80%;
       display: flex;
@@ -363,8 +375,8 @@ main .main3 {
             padding: 7%; }
     main .main3 .form-img .form-service .hotline {
       width: 80%;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
       margin-left: 10%;
       margin-right: 10%;
       text-align: center; }
@@ -406,8 +418,8 @@ footer {
     width: 100%; }
   footer .circle {
     position: absolute;
-    right: 94px;
-    bottom: -162px;
+    right: 100px;
+    bottom: -183px;
     z-index: 1; }
   footer .gach {
     position: absolute;
@@ -421,7 +433,7 @@ footer {
     height: 250px;
     position: absolute;
     bottom: 175px;
-    left: 181px;
+    left: 245px;
     z-index: 1; }
     footer .warring img {
       margin-left: auto;
