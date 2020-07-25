@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-image: url("../../public/image/service/header.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 93%;
+  width: 100%;
+  height: 600px; }
+  header .menu {
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%; }
+    header .menu .menu-logo {
+      width: 18%;
+      height: 18%; }
+    header .menu .menu-between {
+      width: 60%;
+      display: flex;
+      padding-left: 25%;
+      padding-top: 4%; }
+      header .menu .menu-between .between-child {
+        margin-left: 15%;
+        font-size: 18px;
+        font-family: "Nunito", sans-serif; }
+        header .menu .menu-between .between-child a {
+          text-decoration: none;
+          color: white; }
+          header .menu .menu-between .between-child a:hover {
+            text-decoration: underline;
+            transition: 0.5s;
+            text-decoration-color: #da585c; }
+    header .menu .menu-right {
+      width: 20%;
+      padding-top: 4%;
+      margin-left: 15%; }
+      header .menu .menu-right img {
+        font-size: 32px;
+        padding-left: 10%; }
+  header .sendUs {
+    color: #da585c;
+    margin-top: 5%;
+    margin-left: 9%;
+    font-size: 100px;
+    font-family: "Bebas Neue", cursive; }
+  header .yourRequest {
+    color: white;
+    margin-left: 9%;
+    font-size: 100px;
+    font-family: "Bebas Neue", cursive; }
+
+.service {
+  text-align: center;
+  color: #da585c;
+  font-size: 48px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-bottom: 10%; }
+
+main .main1 {
+  background-image: url("../../public/image/service/main1-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1550px;
+  position: relative; }
+  main .main1 .form-img {
+    position: absolute;
+    width: 71%;
+    height: 1150px;
+    background-color: #da585c;
+    margin-left: 15%;
+    margin-right: 14%;
+    color: #da585c;
+    top: 180px;
+    border-radius: 3%; }
+    main .main1 .form-img img {
+      width: 100%;
+      border-radius: 20px 20px 0px 0px; }
+    main .main1 .form-img .form-service h3 {
+      text-align: center;
+      font-size: 48px;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      color: white; }
+    main .main1 .form-img .form-service .form-l-r {
+      width: 80%;
+      display: flex;
+      color: white;
+      margin-left: 10%;
+      margin-right: 10%; }
+      main .main1 .form-img .form-service .form-l-r .left {
+        background-color: #de696c;
+        border-radius: 5%;
+        padding: 3%;
+        width: 45%;
+        padding-top: 5%; }
+        main .main1 .form-img .form-service .form-l-r .left h4 {
+          font-family: "Nunito", sans-serif;
+          font-weight: bold;
+          font-size: 30px; }
+        main .main1 .form-img .form-service .form-l-r .left .step {
+          display: flex;
+          font-family: "Nunito", sans-serif;
+          font-weight: lighter; }
+          main .main1 .form-img .form-service .form-l-r .left .step .step-l {
+            width: 25%; }
+            main .main1 .form-img .form-service .form-l-r .left .step .step-l h5 {
+              font-size: 15px;
+              padding: 4%; }
+          main .main1 .form-img .form-service .form-l-r .left .step .step-r {
+            text-align: right;
+            width: 100%; }
+            main .main1 .form-img .form-service .form-l-r .left .step .step-r h5 {
+              font-size: 15px;
+              padding: 1%; }
+      main .main1 .form-img .form-service .form-l-r .right {
+        background-color: #de696c;
+        border-radius: 5%;
+        margin-left: 10%;
+        padding: 5%;
+        width: 45%; }
+        main .main1 .form-img .form-service .form-l-r .right button {
+          background-color: #de676a;
+          width: 100%;
+          border: 1px solid #e07376;
+          font-size: 16px;
+          font-family: "Nunito", sans-serif;
+          font-weight: bold;
+          color: white;
+          margin-top: 3%;
+          margin-bottom: 3%;
+          text-align: left; }
+          main .main1 .form-img .form-service .form-l-r .right button img {
+            width: 24%;
+            color: white;
+            padding: 7%; }
+    main .main1 .form-img .form-service .hotline {
+      width: 80%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center; }
+      main .main1 .form-img .form-service .hotline button {
+        background-color: #de676a;
+        border: 1px solid #e07376;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%; }
+      main .main1 .form-img .form-service .hotline .price {
+        width: 25%;
+        border-radius: 20px;
+        font-size: 20px; }
+      main .main1 .form-img .form-service .hotline .hl {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 37%;
+        border-radius: 20px;
+        font-size: 20px; }
+      main .main1 .form-img .form-service .hotline .submit {
+        width: 25%;
+        border-radius: 10px;
+        background-color: white;
+        color: #da585c;
+        font-size: 24px; }
+main .main2 {
+  background-image: url("../../public/image/service/main2-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1600px;
+  position: relative; }
+  main .main2 .form-img {
+    position: absolute;
+    width: 71%;
+    height: 1270px;
+    background-color: #da585c;
+    margin-left: 15%;
+    margin-right: 14%;
+    color: #da585c;
+    top: 180px;
+    border-radius: 3%; }
+    main .main2 .form-img img {
+      width: 100%;
+      border-radius: 20px 20px 0px 0px; }
+    main .main2 .form-img .form-service h3 {
+      text-align: center;
+      font-size: 48px;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      color: white; }
+    main .main2 .form-img .form-service .form-l-r {
+      width: 80%;
+      display: flex;
+      color: white;
+      margin-left: 10%;
+      margin-right: 10%; }
+      main .main2 .form-img .form-service .form-l-r .left {
+        background-color: #de696c;
+        border-radius: 5%;
+        padding: 3%;
+        width: 45%;
+        padding-top: 5%; }
+        main .main2 .form-img .form-service .form-l-r .left h4 {
+          font-family: "Nunito", sans-serif;
+          font-weight: bold;
+          font-size: 30px; }
+        main .main2 .form-img .form-service .form-l-r .left .step {
+          display: flex;
+          font-family: "Nunito", sans-serif;
+          font-weight: lighter; }
+          main .main2 .form-img .form-service .form-l-r .left .step .step-l {
+            width: 25%; }
+            main .main2 .form-img .form-service .form-l-r .left .step .step-l h5 {
+              font-size: 15px;
+              padding: 4%; }
+          main .main2 .form-img .form-service .form-l-r .left .step .step-r {
+            text-align: right;
+            width: 100%; }
+            main .main2 .form-img .form-service .form-l-r .left .step .step-r h5 {
+              font-size: 15px;
+              padding: 1%; }
+      main .main2 .form-img .form-service .form-l-r .right {
+        background-color: #de696c;
+        border-radius: 5%;
+        margin-left: 10%;
+        padding: 5%;
+        width: 45%; }
+        main .main2 .form-img .form-service .form-l-r .right button {
+          background-color: #de676a;
+          width: 100%;
+          border: 1px solid #e07376;
+          font-size: 16px;
+          font-family: "Nunito", sans-serif;
+          font-weight: bold;
+          color: white;
+          margin-top: 3%;
+          margin-bottom: 3%;
+          text-align: left; }
+          main .main2 .form-img .form-service .form-l-r .right button img {
+            width: 24%;
+            color: white;
+            padding: 7%; }
+    main .main2 .form-img .form-service .hotline {
+      width: 80%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center; }
+      main .main2 .form-img .form-service .hotline button {
+        background-color: #de676a;
+        border: 1px solid #e07376;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%; }
+      main .main2 .form-img .form-service .hotline .price {
+        width: 25%;
+        border-radius: 20px;
+        font-size: 20px; }
+      main .main2 .form-img .form-service .hotline .hl {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 37%;
+        border-radius: 20px;
+        font-size: 20px; }
+      main .main2 .form-img .form-service .hotline .submit {
+        width: 25%;
+        border-radius: 10px;
+        background-color: white;
+        color: #da585c;
+        font-size: 24px; }
+main .main3 {
+  background-image: url("../../public/image/service/main3-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1600px;
+  position: relative; }
+  main .main3 .form-img {
+    position: absolute;
+    width: 71%;
+    height: 1270px;
+    background-color: #da585c;
+    margin-left: 15%;
+    margin-right: 14%;
+    color: #da585c;
+    top: 180px;
+    border-radius: 3%; }
+    main .main3 .form-img img {
+      width: 100%;
+      border-radius: 20px 20px 0px 0px; }
+    main .main3 .form-img .form-service h3 {
+      text-align: center;
+      font-size: 48px;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      color: white; }
+    main .main3 .form-img .form-service .form-l-r {
+      width: 80%;
+      display: flex;
+      color: white;
+      margin-left: 10%;
+      margin-right: 10%; }
+      main .main3 .form-img .form-service .form-l-r .left {
+        background-color: #de696c;
+        border-radius: 5%;
+        padding: 3%;
+        width: 45%;
+        padding-top: 5%; }
+        main .main3 .form-img .form-service .form-l-r .left h4 {
+          font-family: "Nunito", sans-serif;
+          font-weight: bold;
+          font-size: 30px; }
+        main .main3 .form-img .form-service .form-l-r .left .step {
+          display: flex;
+          font-family: "Nunito", sans-serif;
+          font-weight: lighter; }
+          main .main3 .form-img .form-service .form-l-r .left .step .step-l {
+            width: 25%; }
+            main .main3 .form-img .form-service .form-l-r .left .step .step-l h5 {
+              font-size: 15px;
+              padding: 4%; }
+          main .main3 .form-img .form-service .form-l-r .left .step .step-r {
+            text-align: right;
+            width: 100%; }
+            main .main3 .form-img .form-service .form-l-r .left .step .step-r h5 {
+              font-size: 15px;
+              padding: 1%; }
+      main .main3 .form-img .form-service .form-l-r .right {
+        background-color: #de696c;
+        border-radius: 5%;
+        margin-left: 10%;
+        padding: 5%;
+        width: 45%; }
+        main .main3 .form-img .form-service .form-l-r .right button {
+          background-color: #de676a;
+          width: 100%;
+          border: 1px solid #e07376;
+          font-size: 16px;
+          font-family: "Nunito", sans-serif;
+          font-weight: bold;
+          color: white;
+          margin-top: 3%;
+          margin-bottom: 3%;
+          text-align: left; }
+          main .main3 .form-img .form-service .form-l-r .right button img {
+            width: 24%;
+            color: white;
+            padding: 7%; }
+    main .main3 .form-img .form-service .hotline {
+      width: 80%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center; }
+      main .main3 .form-img .form-service .hotline button {
+        background-color: #de676a;
+        border: 1px solid #e07376;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%; }
+      main .main3 .form-img .form-service .hotline .price {
+        width: 25%;
+        border-radius: 20px;
+        font-size: 20px; }
+      main .main3 .form-img .form-service .hotline .hl {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 37%;
+        border-radius: 20px;
+        font-size: 20px; }
+      main .main3 .form-img .form-service .hotline .submit {
+        width: 25%;
+        border-radius: 10px;
+        background-color: white;
+        color: #da585c;
+        font-size: 24px; }
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 45%;
+  position: relative; }
+  footer .bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%; }
+  footer .circle {
+    position: absolute;
+    right: 94px;
+    bottom: -162px;
+    z-index: 1; }
+  footer .gach {
+    position: absolute;
+    bottom: 150px;
+    right: 450px;
+    z-index: 1; }
+  footer .warring {
+    background-color: #da585c;
+    border-radius: 20px;
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    bottom: 175px;
+    left: 181px;
+    z-index: 1; }
+    footer .warring img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 5%;
+      margin-bottom: 2%; }
+    footer .warring h5 {
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+      color: white;
+      padding-left: 10%;
+      padding-right: 10%; }
+  footer .footer-logo {
+    padding-top: 13%;
+    display: flex; }
+    footer .footer-logo .kity-shop {
+      width: 20%;
+      padding-top: 6%;
+      margin-left: 5%; }
+      footer .footer-logo .kity-shop .logo {
+        width: 75%;
+        height: 50%;
+        padding-left: 20%; }
+      footer .footer-logo .kity-shop .icons {
+        text-align: center; }
+    footer .footer-logo .about-us {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 5%; }
+      footer .footer-logo .about-us .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .about-us .text1 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .quick-link {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 5%; }
+      footer .footer-logo .quick-link .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .quick-link .text2 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .update-our {
+      width: 26%;
+      padding-top: 8%; }
+      footer .footer-logo .update-our span {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white;
+        font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$font-nunito: 'Nunito',
+sans-serif;
+$font-bebas: 'Bebas Neue',
+cursive;
+$color-pink: #da585c;
+header {
+    background-image: url('../../public/image/header-product-detail.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    // height: 407px;
+    .menu {
+        display: flex;
+        width: 100%;
+        // padding-left: 5%;
+        // padding-right: 5%;
+        .menu-logo {
+            width: 16%;
+            height: 16%;
+        }
+        .menu-between {
+            width: 60%;
+            display: flex;
+            padding-left: 20%;
+            padding-top: 4%;
+            .between-child {
+                margin-left: 12%;
+                font-size: 18px;
+                font-family: $font-nunito;
+                // font-weight: ;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        text-decoration: underline;
+                        transition: 0.5s;
+                        text-decoration-color: $color-pink;
+                    }
+                }
+            }
+        }
+        .menu-right {
+            width: 42%;
+            padding-top: 4%;
+            // margin-left: 15%;
+            img {
+                font-size: 32px;
+                padding-left: 10%;
+            }
+        }
+    }
+    .sendUs {
+        color: $color-pink;
+        margin-left: 9%;
+        font-size: 90px;
+        font-family: $font-bebas;
+    }
+    .yourRequest {
+        color: white;
+        margin-left: 9%;
+        font-size: 90px;
+        font-family: $font-bebas;
+    }
+}
+
+main {
+    //main1
+    .main1 {
+        width: 100%;
+        display: flex;
+        margin-top: 10%;
+        .product {
+            width: 45%;
+            .max-width {
+                // text-align: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .child {
+                margin-top: 8%;
+                padding-left: 10%;
+                img {
+                    border: 1px solid white;
+                    &:hover {
+                        cursor: pointer;
+                        transition: 0.8s;
+                        border: 1px solid #da585c;
+                    }
+                }
+            }
+        }
+        .detail {
+            width: 55%;
+            padding-right: 5%;
+            h1 {
+                font-family: $font-nunito;
+                font-weight: bold;
+            }
+            .fle {
+                display: flex;
+                margin-top: 3%;
+                span {
+                    font-size: 18px;
+                    font-family: $font-nunito;
+                    padding-top: 1%;
+                }
+                h3 {
+                    padding-left: 5%;
+                    color: $color-pink;
+                    font-size: 26px;
+                    font-family: $font-nunito;
+                }
+            }
+            .fle1 {
+                display: flex;
+                margin-top: 3%;
+                h3 {
+                    font-family: $font-nunito;
+                    font-size: 14px;
+                    margin-left: 5%;
+                }
+            }
+            .tex1 {
+                font-family: $font-nunito;
+                font-size: 18px;
+                margin-top: 3%;
+                font-weight: lighter;
+            }
+            .add-cart {
+                display: flex;
+                width: 100%;
+                margin-top: 10%;
+                margin-bottom: 25px;
+                .tex {
+                    // padding-top: 10px;
+                    input {
+                        width: 83px;
+                        height: 46px;
+                    }
+                    input[type=number] {
+                        /*for absolutely positioning spinners*/
+                        position: relative;
+                        // padding: 5px;
+                        // padding-right: 25px;
+                    }
+                    input[type=number]::-webkit-inner-spin-button,
+                    input[type=number]::-webkit-outer-spin-button {
+                        opacity: 1;
+                    }
+                    input[type=number]::-webkit-outer-spin-button,
+                    input[type=number]::-webkit-inner-spin-button {
+                        -webkit-appearance: inner-spin-button !important;
+                        // width: 25px;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        height: 100%;
+                    }
+                }
+                .btn-cart {
+                    margin-left: 3%;
+                    .btn-flex {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 166px;
+                        height: 53px;
+                        border: none;
+                        background-color: $color-pink;
+                        border-radius: 5px;
+                        h4 {
+                            padding-top: 10px;
+                            font-family: $font-nunito;
+                            font-size: 16px;
+                            display: inline;
+                            color: white;
+                        }
+                        img {
+                            padding-left: 2px;
+                            width: 20px;
+                            height: 17px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .b-seller {
+        margin-top: 10%;
+        display: flex;
+        font-family: $font-bebas;
+        font-size: 40px;
+        justify-content: center;
+        .xoay {
+            transform: rotate(-10deg);
+        }
+        .weCan {
+            padding-top: 3%;
+        }
+    }
+    .main2 {
+        display: flex;
+        justify-content: center;
+        // width: 100%;
+        margin-top: 7%;
+        img {
+            margin: 0px 15px 0px 15px;
+        }
+        .anh1 {
+            position: relative;
+            img {
+                // position: absolute;
+            }
+            h3 {
+                position: absolute;
+                bottom: 28px;
+                left: 90px;
+                font-size: 25px;
+                font-weight: bold;
+                font-family: $font-nunito;
+                color: $color-pink;
+            }
+            .img1 {
+                position: absolute;
+                left: 30px;
+                top: 40px;
+            }
+            .tex1 {
+                position: absolute;
+                bottom: 95px;
+                left: 30px;
+                width: 76%;
+                font-size: 18px;
+                font-family: $font-nunito;
+                font-weight: bold;
+            }
+            .icon1 {
+                position: absolute;
+                bottom: 65px;
+                left: 80px;
+            }
+        }
+        .anh2 {
+            position: relative;
+            h3 {
+                position: absolute;
+                bottom: 28px;
+                left: 90px;
+                font-size: 25px;
+                font-weight: bold;
+                font-family: $font-nunito;
+                color: $color-pink;
+            }
+            .img2 {
+                position: absolute;
+                left: 18px;
+                top: 40px;
+            }
+            .tex2 {
+                position: absolute;
+                bottom: 95px;
+                left: 30px;
+                width: 76%;
+                font-size: 18px;
+                font-family: $font-nunito;
+                font-weight: bold;
+            }
+            .icon2 {
+                position: absolute;
+                bottom: 65px;
+                left: 80px;
+            }
+        }
+        .anh3 {
+            position: relative;
+            h3 {
+                position: absolute;
+                bottom: 28px;
+                left: 90px;
+                font-size: 25px;
+                font-weight: bold;
+                font-family: $font-nunito;
+                color: $color-pink;
+            }
+            .img3 {
+                position: absolute;
+                left: 35px;
+                top: 40px;
+            }
+            .tex3 {
+                position: absolute;
+                bottom: 95px;
+                left: 30px;
+                width: 76%;
+                font-size: 18px;
+                font-family: $font-nunito;
+                font-weight: bold;
+            }
+            .icon3 {
+                position: absolute;
+                bottom: 65px;
+                left: 80px;
+            }
+        }
+        .anh4 {
+            position: relative;
+            h3 {
+                position: absolute;
+                bottom: 28px;
+                left: 90px;
+                font-size: 25px;
+                font-weight: bold;
+                font-family: $font-nunito;
+                color: $color-pink;
+            }
+            .img4 {
+                position: absolute;
+                left: 33px;
+                top: 40px;
+            }
+            .tex4 {
+                position: absolute;
+                font-size: 18px;
+                font-family: $font-nunito;
+                bottom: 95px;
+                left: 30px;
+                width: 76%;
+                font-weight: bold;
+            }
+            .icon4 {
+                position: absolute;
+                bottom: 65px;
+                left: 80px;
+            }
+        }
+    }
+    //main3
+    .main3 {
+        margin: 10% 11% 0px 11%;
+        h3 {
+            font-family: $font-nunito;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .cua {
+            display: flex;
+            .cua1 {
+                display: flex;
+            }
+            .tex3 {
+                h3 {
+                    font-family: $font-nunito;
+                }
+                span {
+                    font-family: $font-nunito;
+                    font-size: 24px;
+                    font-weight: lighter;
+                }
+            }
+            .date3 {
+                margin-left: 30%;
+                display: block;
+                text-align: right;
+                h4 {
+                    font-family: $font-nunito;
+                    font-size: 18px;
+                    font-weight: lighter;
+                }
+            }
+        }
+        h4 {
+            margin-top: 3%;
+            margin-bottom: 3%;
+            font-family: $font-nunito;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        h5 {
+            font-family: $font-nunito;
+            font-size: 24px;
+        }
+    }
+}
+
+//footer
+footer {
+    width: 100%;
+    height: 100px;
+    .bg {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+    .footer-logo {
+        padding-top: 13%;
+        display: flex;
+        .kity-shop {
+            width: 20%;
+            padding-top: 6%;
+            margin-left: 5%;
+            .logo {
+                width: 75%;
+                height: 50%;
+                padding-left: 20%;
+            }
+            .icons {
+                text-align: center;
+            }
+        }
+        .about-us {
+            width: 20%;
+            padding-top: 5%;
+            margin-left: 5%;
+            .top {
+                font-family: $font-nunito;
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+            }
+            .text1 {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .quick-link {
+            width: 20%;
+            padding-top: 5%;
+            margin-left: 5%;
+            .top {
+                font-family: $font-nunito;
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+            }
+            .text2 {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .update-our {
+            width: 26%;
+            padding-top: 8%;
+            span {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}

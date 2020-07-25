@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-image: url("../../public/image/send-us-your-request.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 93%;
+  width: 100%;
+  height: 600px; }
+  header .menu1 {
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%; }
+    header .menu1 .menu-logo {
+      width: 18%;
+      height: 18%; }
+    header .menu1 .menu-between {
+      width: 60%;
+      display: flex;
+      padding-left: 25%;
+      padding-top: 4%; }
+      header .menu1 .menu-between .between-child {
+        margin-left: 15%;
+        font-size: 18px;
+        font-family: "Nunito", sans-serif; }
+        header .menu1 .menu-between .between-child a {
+          text-decoration: none;
+          color: white; }
+          header .menu1 .menu-between .between-child a:hover {
+            text-decoration: underline;
+            transition: 0.5s;
+            text-decoration-color: #da585c; }
+    header .menu1 .menu-right {
+      width: 20%;
+      padding-top: 4%;
+      margin-left: 15%; }
+      header .menu1 .menu-right img {
+        font-size: 32px;
+        padding-left: 10%; }
+  header .sendUs {
+    color: #da585c;
+    margin-top: 5%;
+    margin-left: 9%;
+    font-size: 100px;
+    font-family: "Bebas Neue", cursive; }
+  header .yourRequest {
+    color: white;
+    margin-left: 9%;
+    font-size: 100px;
+    font-family: "Bebas Neue", cursive; }
+
+main .contact {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Nunito", sans-serif;
+  color: #da585c;
+  margin: 8% 0% 8% 0%; }
+main .map img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+main .lienhe {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 8%;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #5F5F5F;
+  margin-bottom: 8%; }
+  main .lienhe .working h3 {
+    margin-bottom: 4%; }
+  main .lienhe .hotline {
+    margin-left: 3%; }
+    main .lienhe .hotline h3 {
+      margin-bottom: 4%; }
+  main .lienhe .address {
+    margin-left: 3%; }
+    main .lienhe .address h3 {
+      margin-bottom: 3%; }
+main .form-send {
+  width: 715px;
+  height: 746px;
+  border-radius: 10px 10px 20px 20px;
+  border: 1px solid #DA585C;
+  margin: auto; }
+  main .form-send .form-header {
+    width: 100%;
+    height: 153px;
+    background-color: #DA585C;
+    border-radius: 10px 10px 0px 0px; }
+    main .form-send .form-header h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 8%;
+      font-family: "Nunito", sans-serif;
+      font-size: 48px;
+      color: white; }
+  main .form-send .form-contact {
+    padding: 50px 90px 0px 90px; }
+    main .form-send .form-contact .form-group .form-controll {
+      width: 217px;
+      height: 56px; }
+
+footer {
+  width: 100%; }
+  footer .bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%; }
+  footer .footer-logo {
+    padding-top: 13%;
+    display: flex; }
+    footer .footer-logo .kity-shop {
+      width: 20%;
+      padding-top: 6%;
+      margin-left: 5%; }
+      footer .footer-logo .kity-shop .logo img {
+        width: 75%;
+        height: 50%;
+        padding-left: 20%; }
+      footer .footer-logo .kity-shop .icons {
+        text-align: center; }
+    footer .footer-logo .about-us {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 3%; }
+      footer .footer-logo .about-us .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .about-us .text1 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .quick-link {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 3%; }
+      footer .footer-logo .quick-link .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .quick-link .text2 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .update-our {
+      width: 26%;
+      padding-top: 8%; }
+      footer .footer-logo .update-our span {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .update-our .inp {
+        display: flex; }
+        footer .footer-logo .update-our .inp .tex {
+          margin-right: 3%; }
+          footer .footer-logo .update-our .inp .tex .ft-inp {
+            border: none;
+            border-radius: 3px;
+            width: 250px;
+            height: 35px;
+            color: #DA585C; }
+        footer .footer-logo .update-our .inp button {
+          border: none;
+          width: 35px;
+          height: 35px;
+          border-radius: 3px; }
+          footer .footer-logo .update-our .inp button img {
+            padding: 5px; }
+
+@media (max-width: 992px) {
+  header {
+    height: auto;
+    background-attachment: unset; }
+    header .sendUs {
+      font-size: 60px; }
+    header .yourRequest {
+      font-size: 60px;
+      padding-bottom: 5%; }
+
+  .menu1 .menu-between {
+    padding-left: 15%; }
+    .menu1 .menu-between .between-child {
+      margin-left: 10%; }
+  .menu1 .menu-right a img {
+    opacity: 0; }
+
+  main .form-send {
+    width: 80%; }
+    main .form-send .form-header {
+      height: 120px; }
+      main .form-send .form-header h1 {
+        font-size: 30px; }
+  main .map img {
+    width: 50%; }
+
+  footer {
+    height: 150px; }
+    footer .footer-logo {
+      padding-top: 9%; }
+      footer .footer-logo .kity-shop {
+        padding-top: 9%; }
+        footer .footer-logo .kity-shop .icons img {
+          width: 20px;
+          height: 20px; }
+      footer .footer-logo .about-us {
+        width: 30%;
+        margin-left: 5%; }
+        footer .footer-logo .about-us .top {
+          font-size: 16px; }
+        footer .footer-logo .about-us .text1 {
+          font-size: 14px; }
+      footer .footer-logo .quick-link {
+        opacity: 0;
+        width: 5%; }
+        footer .footer-logo .quick-link .top {
+          font-size: 16px; }
+        footer .footer-logo .quick-link .text2 {
+          font-size: 14px; }
+      footer .footer-logo .update-our .inp .tex .ft-inp {
+        width: 135px; } }
+@media (max-width: 576px) {
+  header {
+    height: auto;
+    background-attachment: unset; }
+    header .sendUs {
+      font-size: 40px; }
+    header .yourRequest {
+      font-size: 40px;
+      padding-bottom: 5%; }
+
+  .menu1 .menu-between {
+    width: 40%; }
+    .menu1 .menu-between .between-child {
+      margin-left: 5%; }
+      .menu1 .menu-between .between-child a {
+        font-size: 10px; }
+  .menu1 .menu-right a img {
+    opacity: 0; }
+
+  main .contact {
+    font-size: 28px; }
+  main .lienhe .working h3 {
+    font-size: 20px; }
+  main .lienhe .working span {
+    font-size: 12px; }
+  main .lienhe .hotline h3 {
+    font-size: 20px; }
+  main .lienhe .hotline span {
+    font-size: 12px; }
+  main .lienhe .address h3 {
+    font-size: 20px; }
+  main .lienhe .address span {
+    font-size: 12px; }
+  main .form-send {
+    width: 80%;
+    height: 666px; }
+    main .form-send .form-header {
+      height: 60px; }
+      main .form-send .form-header h1 {
+        font-size: 20px; }
+    main .form-send .form-contact {
+      padding: 30px 40px 0px 40px; }
+  main .map img {
+    width: 50%; }
+
+  footer {
+    height: 120px; }
+    footer .footer-logo {
+      padding-top: 11%; }
+      footer .footer-logo .kity-shop {
+        padding-top: 0%; }
+        footer .footer-logo .kity-shop .logo {
+          margin-top: 20px; }
+          footer .footer-logo .kity-shop .logo img {
+            width: 80%;
+            height: 65%;
+            display: block; }
+        footer .footer-logo .kity-shop .icons {
+          height: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          footer .footer-logo .kity-shop .icons img {
+            width: 10px;
+            height: 10px;
+            padding-left: 1px; }
+      footer .footer-logo .about-us {
+        width: 30%;
+        padding-top: 0%; }
+        footer .footer-logo .about-us .top {
+          opacity: 0;
+          font-size: 0px; }
+        footer .footer-logo .about-us .text1 {
+          font-size: 10px; }
+      footer .footer-logo .quick-link {
+        width: 1%;
+        opacity: 0;
+        padding-top: 0%; }
+        footer .footer-logo .quick-link .top {
+          font-size: 0px; }
+        footer .footer-logo .quick-link .text2 {
+          font-size: 0px; }
+      footer .footer-logo .update-our {
+        width: 30%;
+        padding-top: 0%; }
+        footer .footer-logo .update-our span {
+          visibility: hidden;
+          font-size: 1px; }
+        footer .footer-logo .update-our .inp .tex .ft-inp {
+          width: 80px;
+          height: 20px;
+          font-size: 10px; }
+        footer .footer-logo .update-our .inp button {
+          margin-top: 4px;
+          width: 20px;
+          height: 20px; }
+          footer .footer-logo .update-our .inp button img {
+            width: 15px;
+            height: 15px;
+            padding: 2px; } }
+
+/*# sourceMappingURL=style.css.map */

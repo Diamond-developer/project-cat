@@ -1,0 +1,509 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.slideOfYou {
+  position: relative;
+  z-index: 1; }
+  .slideOfYou .menu {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    width: 100%; }
+    .slideOfYou .menu .menu-logo {
+      width: 18%;
+      height: 18%; }
+    .slideOfYou .menu .menu-between {
+      width: 41%;
+      display: flex;
+      margin-left: 10%;
+      padding-left: 10%;
+      padding-top: 4%; }
+      .slideOfYou .menu .menu-between .between-child {
+        margin-left: 18%;
+        font-size: 18px;
+        font-family: "Nunito", sans-serif; }
+        .slideOfYou .menu .menu-between .between-child a {
+          text-decoration: none;
+          color: white; }
+          .slideOfYou .menu .menu-between .between-child a:hover {
+            text-decoration: underline;
+            transition: 0.5s;
+            text-decoration-color: #da585c; }
+    .slideOfYou .menu .menu-right {
+      width: 20%;
+      padding-top: 4%;
+      margin-left: 15%; }
+      .slideOfYou .menu .menu-right img {
+        font-size: 32px;
+        padding-left: 10%; }
+  .slideOfYou .sendUs {
+    position: absolute;
+    z-index: 2;
+    color: #da585c;
+    margin-top: 27%;
+    margin-left: 9%;
+    font-size: 100px;
+    font-family: "Bebas Neue", cursive; }
+  .slideOfYou .yourRequest {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    margin-top: 20%;
+    margin-left: 9%;
+    font-size: 100px;
+    font-family: "Bebas Neue", cursive; }
+
+header {
+  background-image: url("../../public/image/index/header.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 93%;
+  width: 100%;
+  height: 600px; }
+  header .menu {
+    display: flex;
+    width: 100%; }
+    header .menu .menu-logo {
+      width: 18%;
+      height: 18%; }
+    header .menu .menu-between {
+      width: 41%;
+      display: flex;
+      padding-left: 20%;
+      padding-top: 4%; }
+      header .menu .menu-between .between-child {
+        margin-left: 10%;
+        font-size: 18px;
+        font-family: "Nunito", sans-serif; }
+        header .menu .menu-between .between-child a {
+          text-decoration: none;
+          color: white; }
+          header .menu .menu-between .between-child a:hover {
+            text-decoration: underline;
+            transition: 0.5s;
+            text-decoration-color: #da585c; }
+    header .menu .menu-right {
+      width: 20%;
+      padding-top: 4%;
+      margin-left: -3%; }
+      header .menu .menu-right img {
+        font-size: 32px;
+        padding-left: 10%; }
+  header .sendUs {
+    color: #da585c;
+    margin-top: 5%;
+    margin-left: 9%;
+    font-size: 100px;
+    font-family: "Bebas Neue", cursive; }
+  header .yourRequest {
+    color: white;
+    margin-left: 9%;
+    font-size: 100px;
+    font-family: "Bebas Neue", cursive; }
+
+main .main1 {
+  margin-top: 6%;
+  margin-bottom: 10%; }
+  main .main1 .chan {
+    display: flex;
+    font-family: "Bebas Neue", cursive;
+    font-size: 40px;
+    justify-content: center; }
+    main .main1 .chan .xoay {
+      transform: rotate(-10deg); }
+    main .main1 .chan .weCan {
+      padding-top: 3%; }
+  main .main1 .weOffer {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px; }
+main .main2 {
+  display: flex;
+  justify-content: center; }
+  main .main2 img {
+    margin: 0px 15px 0px 15px; }
+  main .main2 .anh1 {
+    position: relative; }
+    main .main2 .anh1 .bl {
+      position: absolute;
+      z-index: 1; }
+    main .main2 .anh1 .food {
+      position: absolute;
+      top: 50px;
+      left: 40px;
+      width: 77%;
+      z-index: 2; }
+      main .main2 .anh1 .food .food-header {
+        display: flex;
+        margin-top: 33%; }
+        main .main2 .anh1 .food .food-header img {
+          width: 32px;
+          height: 32px;
+          margin-left: 0px;
+          margin-right: 5px; }
+        main .main2 .anh1 .food .food-header h3 {
+          color: #da585c;
+          font-family: "Nunito", sans-serif;
+          font-size: 30px; }
+      main .main2 .anh1 .food span {
+        margin-top: 5px;
+        font-family: "Nunito", sans-serif;
+        font-size: 15px;
+        color: white; }
+      main .main2 .anh1 .food .food-footer {
+        display: flex;
+        margin-top: 30%; }
+        main .main2 .anh1 .food .food-footer h2 {
+          font-size: 20px;
+          font-family: "Nunito", sans-serif;
+          font-weight: bold;
+          color: white; }
+        main .main2 .anh1 .food .food-footer img {
+          width: 16px;
+          height: 16px; }
+  main .main2 .anh2 {
+    position: relative; }
+    main .main2 .anh2 h3 {
+      position: absolute;
+      bottom: 8px;
+      left: 55px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: white; }
+  main .main2 .anh3 {
+    position: relative; }
+    main .main2 .anh3 h3 {
+      position: absolute;
+      bottom: 8px;
+      left: 60px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: white; }
+  main .main2 .anh4 {
+    position: relative; }
+    main .main2 .anh4 h3 {
+      position: absolute;
+      bottom: 8px;
+      left: 95px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: white; }
+main .main3 {
+  display: flex;
+  width: 100%;
+  margin-top: 120px; }
+  main .main3 .img3 {
+    width: 50%; }
+  main .main3 .tex3 {
+    width: 50%;
+    margin-left: 6%;
+    margin-right: 17%;
+    padding-top: 5%; }
+    main .main3 .tex3 h3 {
+      margin-top: 5%;
+      font-family: "Nunito", sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center; }
+    main .main3 .tex3 span {
+      margin-top: 5%;
+      font-size: 15px;
+      font-family: "Nunito", sans-serif;
+      display: block;
+      text-align: center; }
+    main .main3 .tex3 .price {
+      margin-top: 5%;
+      display: flex;
+      justify-content: center; }
+      main .main3 .tex3 .price .hr {
+        margin-top: 5%;
+        position: relative; }
+        main .main3 .tex3 .price .hr h5 {
+          position: absolute; }
+        main .main3 .tex3 .price .hr img {
+          height: 4px;
+          width: 116px; }
+      main .main3 .tex3 .price h3 {
+        color: #da585c;
+        font-family: "Nunito", sans-serif;
+        font-size: 30px;
+        font-weight: bold; }
+    main .main3 .tex3 .fish {
+      position: relative;
+      margin-top: 5%; }
+      main .main3 .tex3 .fish img {
+        margin-left: 20%;
+        margin-top: 5%; }
+      main .main3 .tex3 .fish span {
+        top: 35px;
+        left: 150px;
+        position: absolute;
+        transform: rotate(-15deg);
+        font-family: "Nunito", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: white; }
+main .main4 {
+  width: 100%;
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px; }
+  main .main4 .tex4 {
+    width: 50%;
+    margin-left: 6%;
+    margin-right: 17%;
+    padding-top: 5%; }
+    main .main4 .tex4 h3 {
+      margin-top: 5%;
+      font-family: "Nunito", sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center; }
+    main .main4 .tex4 span {
+      margin-top: 5%;
+      font-size: 15px;
+      font-family: "Nunito", sans-serif;
+      display: block;
+      text-align: center; }
+    main .main4 .tex4 .price {
+      margin-top: 5%;
+      display: flex;
+      justify-content: center; }
+      main .main4 .tex4 .price .hr {
+        margin-top: 5%;
+        position: relative; }
+        main .main4 .tex4 .price .hr h5 {
+          position: absolute; }
+        main .main4 .tex4 .price .hr img {
+          height: 4px;
+          width: 116px; }
+      main .main4 .tex4 .price h3 {
+        color: #da585c;
+        font-family: "Nunito", sans-serif;
+        font-size: 30px;
+        font-weight: bold; }
+    main .main4 .tex4 .fish {
+      position: relative;
+      margin-top: 5%; }
+      main .main4 .tex4 .fish img {
+        margin-left: 20%;
+        margin-top: 5%; }
+      main .main4 .tex4 .fish span {
+        top: 35px;
+        left: 150px;
+        position: absolute;
+        transform: rotate(-15deg);
+        font-family: "Nunito", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: white; }
+  main .main4 .img4 {
+    width: 50%; }
+    main .main4 .img4 img {
+      float: right; }
+main .b-seller {
+  display: flex;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  justify-content: center; }
+  main .b-seller .xoay {
+    transform: rotate(-10deg); }
+  main .b-seller .weCan {
+    padding-top: 3%; }
+main .main5 {
+  margin: 6%; }
+  main .main5 .cate {
+    display: flex;
+    justify-content: center; }
+    main .main5 .cate .prod {
+      margin-left: 5px;
+      margin-right: 5px;
+      position: relative; }
+      main .main5 .cate .prod .prod-child1 {
+        position: absolute;
+        top: 5px;
+        right: 5px; }
+      main .main5 .cate .prod .add-cart {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 25px; }
+        main .main5 .cate .prod .add-cart .tex {
+          width: 50%; }
+          main .main5 .cate .prod .add-cart .tex h3 {
+            font-size: 18px;
+            font-family: "Nunito", sans-serif; }
+          main .main5 .cate .prod .add-cart .tex span {
+            font-size: 18px;
+            font-family: "Nunito", sans-serif;
+            color: #da585c;
+            font-weight: bold; }
+        main .main5 .cate .prod .add-cart .btn-cart {
+          width: 50%; }
+          main .main5 .cate .prod .add-cart .btn-cart .btn-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 166px;
+            height: 53px;
+            border: none;
+            background-color: #da585c;
+            border-radius: 5px; }
+            main .main5 .cate .prod .add-cart .btn-cart .btn-flex h4 {
+              padding-top: 10px;
+              font-family: "Nunito", sans-serif;
+              font-size: 16px;
+              display: inline;
+              color: white; }
+            main .main5 .cate .prod .add-cart .btn-cart .btn-flex img {
+              padding-left: 2px;
+              width: 20px;
+              height: 17px;
+              color: white; }
+    main .main5 .cate .prodImg {
+      margin-left: 5px;
+      margin-right: 5px;
+      position: relative; }
+      main .main5 .cate .prodImg .prodImg4 {
+        z-index: 1;
+        position: absolute;
+        top: -12px;
+        left: 58px; }
+      main .main5 .cate .prodImg .prodImg3 {
+        position: absolute;
+        top: 5px;
+        right: 5px; }
+      main .main5 .cate .prodImg .prodImg2 {
+        top: 8px;
+        left: 48px;
+        position: absolute; }
+      main .main5 .cate .prodImg .add-cart {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 25px; }
+        main .main5 .cate .prodImg .add-cart .tex {
+          width: 50%; }
+          main .main5 .cate .prodImg .add-cart .tex h3 {
+            font-size: 18px;
+            font-family: "Nunito", sans-serif; }
+          main .main5 .cate .prodImg .add-cart .tex span {
+            font-size: 18px;
+            font-family: "Nunito", sans-serif;
+            color: #da585c;
+            font-weight: bold; }
+        main .main5 .cate .prodImg .add-cart .btn-cart {
+          width: 50%; }
+          main .main5 .cate .prodImg .add-cart .btn-cart .btn-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 166px;
+            height: 53px;
+            border: none;
+            background-color: #da585c;
+            border-radius: 5px; }
+            main .main5 .cate .prodImg .add-cart .btn-cart .btn-flex h4 {
+              padding-top: 10px;
+              font-family: "Nunito", sans-serif;
+              font-size: 16px;
+              display: inline;
+              color: white; }
+            main .main5 .cate .prodImg .add-cart .btn-cart .btn-flex img {
+              padding-left: 2px;
+              width: 20px;
+              height: 17px;
+              color: white; }
+main .main6 {
+  display: flex;
+  margin: 12% 10% 6% 10%; }
+  main .main6 .img6 {
+    position: relative; }
+    main .main6 .img6 .img6-1 {
+      position: absolute; }
+  main .main6 .tex6 {
+    margin-left: 5%; }
+    main .main6 .tex6 img {
+      display: block; }
+    main .main6 .tex6 span {
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      display: block;
+      margin-top: 30%; }
+    main .main6 .tex6 h3 {
+      margin-top: 10%;
+      font-family: "Nunito", sans-serif;
+      font-size: 18px;
+      color: #da585c;
+      font-weight: bold; }
+    main .main6 .tex6 h4 {
+      margin-top: -1%;
+      font-family: "Nunito", sans-serif;
+      font-size: 16px; }
+    main .main6 .tex6 .icons-main6 {
+      display: flex; }
+      main .main6 .tex6 .icons-main6 img {
+        margin-right: 2%; }
+
+footer {
+  width: 100%;
+  height: 100px; }
+  footer .bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%; }
+  footer .footer-logo {
+    padding-top: 13%;
+    display: flex; }
+    footer .footer-logo .kity-shop {
+      width: 20%;
+      padding-top: 6%;
+      margin-left: 5%; }
+      footer .footer-logo .kity-shop .logo {
+        width: 75%;
+        height: 50%;
+        padding-left: 20%; }
+      footer .footer-logo .kity-shop .icons {
+        text-align: center; }
+    footer .footer-logo .about-us {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 5%; }
+      footer .footer-logo .about-us .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .about-us .text1 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .quick-link {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 5%; }
+      footer .footer-logo .quick-link .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .quick-link .text2 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .update-our {
+      width: 26%;
+      padding-top: 8%; }
+      footer .footer-logo .update-our span {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white;
+        font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$font-nunito: 'Nunito',
+sans-serif;
+$font-bebas: 'Bebas Neue',
+cursive;
+$color-pink:#da585c;
+header {
+    background-image: url('../../public/image/service/header.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 93%;
+    width: 100%;
+    height: 600px;
+    .menu {
+        display: flex;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        .menu-logo {
+            width: 18%;
+            height: 18%;
+        }
+        .menu-between {
+            width: 60%;
+            display: flex;
+            padding-left: 25%;
+            padding-top: 4%;
+            .between-child {
+                margin-left: 15%;
+                font-size: 18px;
+                font-family: $font-nunito;
+                // font-weight: ;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        text-decoration: underline;
+                        transition: 0.5s;
+                        text-decoration-color: #da585c;
+                    }
+                }
+            }
+        }
+        .menu-right {
+            width: 20%;
+            padding-top: 4%;
+            margin-left: 15%;
+            img {
+                font-size: 32px;
+                padding-left: 10%;
+            }
+        }
+    }
+    .sendUs {
+        color: #da585c;
+        margin-top: 5%;
+        margin-left: 9%;
+        font-size: 100px;
+        font-family: $font-bebas;
+    }
+    .yourRequest {
+        color: white;
+        // margin-top: 1%;
+        margin-left: 9%;
+        font-size: 100px;
+        font-family: $font-bebas;
+    }
+}
+
+.service {
+    text-align: center;
+    color: $color-pink;
+    font-size: 48px;
+    font-family: $font-nunito;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+main {
+    .main1 {
+        background-image: url('../../public/image/service/main1-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1550px;
+        position: relative;
+        .form-img {
+            position: absolute;
+            width: 71%;
+            height: 1150px;
+            background-color: $color-pink;
+            margin-left: 15%;
+            margin-right: 14%;
+            color: $color-pink;
+            top: 180px;
+            border-radius: 3%;
+            img {
+                // position: absolute;
+                // top: -45px;
+                // right: -30px;
+                width: 100%;
+                border-radius: 20px 20px 0px 0px;
+            }
+            .form-service {
+                // background-color: white;
+                h3 {
+                    text-align: center;
+                    font-size: 48px;
+                    font-family: $font-nunito;
+                    font-weight: bold;
+                    color: white;
+                }
+                .form-l-r {
+                    width: 80%;
+                    // background-color: white;
+                    display: flex;
+                    color: white;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    .left {
+                        background-color: #de696c;
+                        border-radius: 5%;
+                        padding: 3%;
+                        width: 45%;
+                        padding-top: 5%;
+                        h4 {
+                            font-family: $font-nunito;
+                            font-weight: bold;
+                            font-size: 30px;
+                        }
+                        .step {
+                            display: flex;
+                            font-family: $font-nunito;
+                            font-weight: lighter;
+                            .step-l {
+                                width: 25%;
+                                h5 {
+                                    font-size: 15px;
+                                    padding: 4%;
+                                }
+                            }
+                            .step-r {
+                                text-align: right;
+                                width: 100%;
+                                h5 {
+                                    font-size: 15px;
+                                    padding: 1%;
+                                }
+                            }
+                        }
+                    }
+                    .right {
+                        background-color: #de696c;
+                        border-radius: 5%;
+                        margin-left: 10%;
+                        padding: 5%;
+                        width: 45%;
+                        button {
+                            background-color: #de676a;
+                            width: 100%;
+                            border: 1px solid #e07376;
+                            font-size: 16px;
+                            font-family: $font-nunito;
+                            font-weight: bold;
+                            color: white;
+                            margin-top: 3%;
+                            margin-bottom: 3%;
+                            text-align: left;
+                            img {
+                                width: 24%;
+                                color: white;
+                                padding: 7%;
+                            }
+                        }
+                    }
+                }
+                .hotline {
+                    width: 80%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    text-align: center;
+                    button {
+                        background-color: #de676a;
+                        border: 1px solid #e07376;
+                        font-family: $font-nunito;
+                        font-weight: bold;
+                        color: white;
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                    }
+                    .price {
+                        width: 25%;
+                        border-radius: 20px;
+                        font-size: 20px;
+                    }
+                    .hl {
+                        margin-left: 5%;
+                        margin-right: 5%;
+                        width: 37%;
+                        border-radius: 20px;
+                        font-size: 20px;
+                    }
+                    .submit {
+                        width: 25%;
+                        border-radius: 10px;
+                        background-color: white;
+                        color: $color-pink;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .main2 {
+        background-image: url('../../public/image/service/main2-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1600px;
+        position: relative;
+        .form-img {
+            position: absolute;
+            width: 71%;
+            height: 1270px;
+            background-color: $color-pink;
+            margin-left: 15%;
+            margin-right: 14%;
+            color: $color-pink;
+            top: 180px;
+            border-radius: 3%;
+            img {
+                // position: absolute;
+                // top: -45px;
+                // right: -30px;
+                width: 100%;
+                // padding-left: 1%;
+                // padding-right: 1%;
+                border-radius: 20px 20px 0px 0px;
+            }
+            .form-service {
+                // background-color: white;
+                h3 {
+                    text-align: center;
+                    font-size: 48px;
+                    font-family: $font-nunito;
+                    font-weight: bold;
+                    color: white;
+                }
+                .form-l-r {
+                    width: 80%;
+                    // background-color: white;
+                    display: flex;
+                    color: white;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    .left {
+                        background-color: #de696c;
+                        border-radius: 5%;
+                        padding: 3%;
+                        width: 45%;
+                        padding-top: 5%;
+                        h4 {
+                            font-family: $font-nunito;
+                            font-weight: bold;
+                            font-size: 30px;
+                        }
+                        .step {
+                            display: flex;
+                            font-family: $font-nunito;
+                            font-weight: lighter;
+                            .step-l {
+                                width: 25%;
+                                h5 {
+                                    font-size: 15px;
+                                    padding: 4%;
+                                }
+                            }
+                            .step-r {
+                                text-align: right;
+                                width: 100%;
+                                h5 {
+                                    font-size: 15px;
+                                    padding: 1%;
+                                }
+                            }
+                        }
+                    }
+                    .right {
+                        background-color: #de696c;
+                        border-radius: 5%;
+                        margin-left: 10%;
+                        padding: 5%;
+                        width: 45%;
+                        button {
+                            background-color: #de676a;
+                            width: 100%;
+                            border: 1px solid #e07376;
+                            font-size: 16px;
+                            font-family: $font-nunito;
+                            font-weight: bold;
+                            color: white;
+                            margin-top: 3%;
+                            margin-bottom: 3%;
+                            text-align: left;
+                            img {
+                                width: 24%;
+                                color: white;
+                                padding: 7%;
+                            }
+                        }
+                    }
+                }
+                .hotline {
+                    width: 80%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    text-align: center;
+                    button {
+                        background-color: #de676a;
+                        border: 1px solid #e07376;
+                        font-family: $font-nunito;
+                        font-weight: bold;
+                        color: white;
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                    }
+                    .price {
+                        width: 25%;
+                        border-radius: 20px;
+                        font-size: 20px;
+                    }
+                    .hl {
+                        margin-left: 5%;
+                        margin-right: 5%;
+                        width: 37%;
+                        border-radius: 20px;
+                        font-size: 20px;
+                    }
+                    .submit {
+                        width: 25%;
+                        border-radius: 10px;
+                        background-color: white;
+                        color: $color-pink;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    //main3
+    .main3 {
+        background-image: url('../../public/image/service/main3-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1600px;
+        position: relative;
+        .form-img {
+            position: absolute;
+            width: 71%;
+            height: 1270px;
+            background-color: $color-pink;
+            margin-left: 15%;
+            margin-right: 14%;
+            color: $color-pink;
+            top: 180px;
+            border-radius: 3%;
+            img {
+                // position: absolute;
+                // top: -45px;
+                // right: -30px;
+                width: 100%;
+                // padding-left: 1%;
+                // padding-right: 1%;
+                border-radius: 20px 20px 0px 0px;
+            }
+            .form-service {
+                // background-color: white;
+                h3 {
+                    text-align: center;
+                    font-size: 48px;
+                    font-family: $font-nunito;
+                    font-weight: bold;
+                    color: white;
+                }
+                .form-l-r {
+                    width: 80%;
+                    // background-color: white;
+                    display: flex;
+                    color: white;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    .left {
+                        background-color: #de696c;
+                        border-radius: 5%;
+                        padding: 3%;
+                        width: 45%;
+                        padding-top: 5%;
+                        h4 {
+                            font-family: $font-nunito;
+                            font-weight: bold;
+                            font-size: 30px;
+                        }
+                        .step {
+                            display: flex;
+                            font-family: $font-nunito;
+                            font-weight: lighter;
+                            .step-l {
+                                width: 25%;
+                                h5 {
+                                    font-size: 15px;
+                                    padding: 4%;
+                                }
+                            }
+                            .step-r {
+                                text-align: right;
+                                width: 100%;
+                                h5 {
+                                    font-size: 15px;
+                                    padding: 1%;
+                                }
+                            }
+                        }
+                    }
+                    .right {
+                        background-color: #de696c;
+                        border-radius: 5%;
+                        margin-left: 10%;
+                        padding: 5%;
+                        width: 45%;
+                        button {
+                            background-color: #de676a;
+                            width: 100%;
+                            border: 1px solid #e07376;
+                            font-size: 16px;
+                            font-family: $font-nunito;
+                            font-weight: bold;
+                            color: white;
+                            margin-top: 3%;
+                            margin-bottom: 3%;
+                            text-align: left;
+                            img {
+                                width: 24%;
+                                color: white;
+                                padding: 7%;
+                            }
+                        }
+                    }
+                }
+                .hotline {
+                    width: 80%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    text-align: center;
+                    button {
+                        background-color: #de676a;
+                        border: 1px solid #e07376;
+                        font-family: $font-nunito;
+                        font-weight: bold;
+                        color: white;
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                    }
+                    .price {
+                        width: 25%;
+                        border-radius: 20px;
+                        font-size: 20px;
+                    }
+                    .hl {
+                        margin-left: 5%;
+                        margin-right: 5%;
+                        width: 37%;
+                        border-radius: 20px;
+                        font-size: 20px;
+                    }
+                    .submit {
+                        width: 25%;
+                        border-radius: 10px;
+                        background-color: white;
+                        color: $color-pink;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 45%;
+    position: relative;
+    .bg {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+    .circle {
+        position: absolute;
+        right: 94px;
+        bottom: -162px;
+        z-index: 1;
+    }
+    .gach {
+        position: absolute;
+        bottom: 150px;
+        right: 450px;
+        z-index: 1;
+    }
+    .warring {
+        background-color: $color-pink;
+        border-radius: 20px;
+        width: 50%;
+        height: 250px;
+        position: absolute;
+        bottom: 175px;
+        left: 181px;
+        z-index: 1;
+        img {
+            // text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 5%;
+            margin-bottom: 2%;
+        }
+        h5 {
+            font-family: $font-nunito;
+            font-weight: bold;
+            font-size: 15px;
+            color: white;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+    .footer-logo {
+        padding-top: 13%;
+        display: flex;
+        .kity-shop {
+            width: 20%;
+            padding-top: 6%;
+            margin-left: 5%;
+            .logo {
+                width: 75%;
+                height: 50%;
+                padding-left: 20%;
+            }
+            .icons {
+                text-align: center;
+            }
+        }
+        .about-us {
+            width: 20%;
+            padding-top: 5%;
+            margin-left: 5%;
+            .top {
+                font-family: $font-nunito;
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+            }
+            .text1 {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .quick-link {
+            width: 20%;
+            padding-top: 5%;
+            margin-left: 5%;
+            .top {
+                font-family: $font-nunito;
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+            }
+            .text2 {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .update-our {
+            width: 26%;
+            padding-top: 8%;
+            span {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}

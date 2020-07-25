@@ -1,0 +1,240 @@
+$font-nunito: 'Nunito',
+sans-serif;
+$font-bebas: 'Bebas Neue',
+cursive;
+$color-pink:#da585c;
+.hver {
+    color: white;
+    // font-size: 20%;
+    font-family: $font-nunito;
+    padding-right: 10%;
+}
+
+.hver1 {
+    &:hover {
+        text-decoration: underline;
+        text-decoration-color: $color-pink;
+    }
+}
+
+.pr {
+    padding-right: 5%;
+}
+
+.s-cat {
+    margin-top: 10%;
+    h3 {
+        font-weight: bold;
+        font-family: $font-nunito;
+        color: $color-pink;
+        padding-bottom: 3%;
+    }
+}
+
+.s-cart {
+    background-color: #fbeeef;
+    height: 180px;
+    border: 1px solid rgba(218, 88, 92, 0.5);
+    display: flex;
+    border-radius: 5px;
+    img {
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .between {
+        width: 65%;
+        h5 {
+            // font-size: 20%;
+            padding-top: 8%;
+            padding-bottom: 3%;
+            font-family: $font-nunito;
+        }
+        span {
+            color: $color-pink;
+            font-family: $font-nunito;
+            font-weight: bold;
+        }
+    }
+    .rg {
+        width: 30%;
+        text-align: center;
+        padding-top: 10%;
+        input {
+            width: 83px;
+            height: 46px;
+            border: none;
+            border-radius: 5%;
+        }
+        input[type=number] {
+            /*for absolutely positioning spinners*/
+            position: relative;
+            // padding: 5px;
+            // padding-right: 25px;
+        }
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            opacity: 1;
+        }
+        input[type=number]::-webkit-outer-spin-button,
+        input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: inner-spin-button !important;
+            // width: 25px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+        }
+    }
+}
+
+.checkou1t {
+    width: 100%;
+    border: 1px solid rgba(218, 88, 92, 0.5);
+    background-color: #fbeeef;
+    height: 220px;
+    margin-top: 41%;
+    border-radius: 10px;
+    button {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-family: $font-nunito;
+        font-weight: bold;
+        border: none;
+        background-color: $color-pink;
+        border-radius: 5px;
+        display: block;
+        color: white;
+    }
+    hr {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $color-pink;
+    }
+    .total {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        .price {
+            float: right;
+            color: $color-pink;
+            font-weight: bold;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    // margin-top: 45%;
+    position: relative;
+    .bg {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+    .circle {
+        position: absolute;
+        right: 80px;
+        bottom: -160px;
+        z-index: 1;
+    }
+    .gach {
+        position: absolute;
+        bottom: 150px;
+        right: 450px;
+        z-index: 1;
+    }
+    .warring {
+        background-color: $color-pink;
+        border-radius: 20px;
+        width: 50%;
+        height: 250px;
+        position: absolute;
+        bottom: 175px;
+        left: 173px;
+        z-index: 1;
+        img {
+            // text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 5%;
+            margin-bottom: 2%;
+        }
+        h5 {
+            font-family: $font-nunito;
+            font-weight: bold;
+            font-size: 15px;
+            color: white;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+    .footer-logo {
+        padding-top: 13%;
+        display: flex;
+        .kity-shop {
+            width: 20%;
+            padding-top: 6%;
+            margin-left: 5%;
+            .logo {
+                width: 75%;
+                height: 50%;
+                padding-left: 20%;
+            }
+            .icons {
+                text-align: center;
+            }
+        }
+        .about-us {
+            width: 20%;
+            padding-top: 5%;
+            margin-left: 5%;
+            .top {
+                font-family: $font-nunito;
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+            }
+            .text1 {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .quick-link {
+            width: 20%;
+            padding-top: 5%;
+            margin-left: 5%;
+            .top {
+                font-family: $font-nunito;
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+            }
+            .text2 {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .update-our {
+            width: 26%;
+            padding-top: 8%;
+            span {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}

@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-image: url("../../public/image/header-product-detail.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  width: 100%; }
+  header .menu {
+    display: flex;
+    width: 100%; }
+    header .menu .menu-logo {
+      width: 16%;
+      height: 16%; }
+    header .menu .menu-between {
+      width: 60%;
+      display: flex;
+      padding-left: 20%;
+      padding-top: 4%; }
+      header .menu .menu-between .between-child {
+        margin-left: 12%;
+        font-size: 18px;
+        font-family: "Nunito", sans-serif; }
+        header .menu .menu-between .between-child a {
+          text-decoration: none;
+          color: white; }
+          header .menu .menu-between .between-child a:hover {
+            text-decoration: underline;
+            transition: 0.5s;
+            text-decoration-color: #da585c; }
+    header .menu .menu-right {
+      width: 42%;
+      padding-top: 4%; }
+      header .menu .menu-right img {
+        font-size: 32px;
+        padding-left: 10%; }
+  header .sendUs {
+    color: #da585c;
+    margin-left: 9%;
+    font-size: 90px;
+    font-family: "Bebas Neue", cursive; }
+  header .yourRequest {
+    color: white;
+    margin-left: 9%;
+    font-size: 90px;
+    font-family: "Bebas Neue", cursive; }
+
+main .main1 {
+  width: 100%;
+  display: flex;
+  margin-top: 10%; }
+  main .main1 .product {
+    width: 45%; }
+    main .main1 .product .max-width {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    main .main1 .product .child {
+      margin-top: 8%;
+      padding-left: 10%; }
+      main .main1 .product .child img {
+        border: 1px solid white; }
+        main .main1 .product .child img:hover {
+          cursor: pointer;
+          transition: 0.8s;
+          border: 1px solid #da585c; }
+  main .main1 .detail {
+    width: 55%;
+    padding-right: 5%; }
+    main .main1 .detail h1 {
+      font-family: "Nunito", sans-serif;
+      font-weight: bold; }
+    main .main1 .detail .fle {
+      display: flex;
+      margin-top: 3%; }
+      main .main1 .detail .fle span {
+        font-size: 18px;
+        font-family: "Nunito", sans-serif;
+        padding-top: 1%; }
+      main .main1 .detail .fle h3 {
+        padding-left: 5%;
+        color: #da585c;
+        font-size: 26px;
+        font-family: "Nunito", sans-serif; }
+    main .main1 .detail .fle1 {
+      display: flex;
+      margin-top: 3%; }
+      main .main1 .detail .fle1 h3 {
+        font-family: "Nunito", sans-serif;
+        font-size: 14px;
+        margin-left: 5%; }
+    main .main1 .detail .tex1 {
+      font-family: "Nunito", sans-serif;
+      font-size: 18px;
+      margin-top: 3%;
+      font-weight: lighter; }
+    main .main1 .detail .add-cart {
+      display: flex;
+      width: 100%;
+      margin-top: 10%;
+      margin-bottom: 25px; }
+      main .main1 .detail .add-cart .tex input {
+        width: 83px;
+        height: 46px; }
+      main .main1 .detail .add-cart .tex input[type=number] {
+        /*for absolutely positioning spinners*/
+        position: relative; }
+      main .main1 .detail .add-cart .tex input[type=number]::-webkit-inner-spin-button,
+      main .main1 .detail .add-cart .tex input[type=number]::-webkit-outer-spin-button {
+        opacity: 1; }
+      main .main1 .detail .add-cart .tex input[type=number]::-webkit-outer-spin-button,
+      main .main1 .detail .add-cart .tex input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: inner-spin-button !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%; }
+      main .main1 .detail .add-cart .btn-cart {
+        margin-left: 3%; }
+        main .main1 .detail .add-cart .btn-cart .btn-flex {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 166px;
+          height: 53px;
+          border: none;
+          background-color: #da585c;
+          border-radius: 5px; }
+          main .main1 .detail .add-cart .btn-cart .btn-flex h4 {
+            padding-top: 10px;
+            font-family: "Nunito", sans-serif;
+            font-size: 16px;
+            display: inline;
+            color: white; }
+          main .main1 .detail .add-cart .btn-cart .btn-flex img {
+            padding-left: 2px;
+            width: 20px;
+            height: 17px;
+            color: white; }
+main .b-seller {
+  margin-top: 10%;
+  display: flex;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  justify-content: center; }
+  main .b-seller .xoay {
+    transform: rotate(-10deg); }
+  main .b-seller .weCan {
+    padding-top: 3%; }
+main .main2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%; }
+  main .main2 img {
+    margin: 0px 15px 0px 15px; }
+  main .main2 .anh1 {
+    position: relative; }
+    main .main2 .anh1 h3 {
+      position: absolute;
+      bottom: 28px;
+      left: 90px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: #da585c; }
+    main .main2 .anh1 .img1 {
+      position: absolute;
+      left: 30px;
+      top: 40px; }
+    main .main2 .anh1 .tex1 {
+      position: absolute;
+      bottom: 95px;
+      left: 30px;
+      width: 76%;
+      font-size: 18px;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold; }
+    main .main2 .anh1 .icon1 {
+      position: absolute;
+      bottom: 65px;
+      left: 80px; }
+  main .main2 .anh2 {
+    position: relative; }
+    main .main2 .anh2 h3 {
+      position: absolute;
+      bottom: 28px;
+      left: 90px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: #da585c; }
+    main .main2 .anh2 .img2 {
+      position: absolute;
+      left: 18px;
+      top: 40px; }
+    main .main2 .anh2 .tex2 {
+      position: absolute;
+      bottom: 95px;
+      left: 30px;
+      width: 76%;
+      font-size: 18px;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold; }
+    main .main2 .anh2 .icon2 {
+      position: absolute;
+      bottom: 65px;
+      left: 80px; }
+  main .main2 .anh3 {
+    position: relative; }
+    main .main2 .anh3 h3 {
+      position: absolute;
+      bottom: 28px;
+      left: 90px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: #da585c; }
+    main .main2 .anh3 .img3 {
+      position: absolute;
+      left: 35px;
+      top: 40px; }
+    main .main2 .anh3 .tex3 {
+      position: absolute;
+      bottom: 95px;
+      left: 30px;
+      width: 76%;
+      font-size: 18px;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold; }
+    main .main2 .anh3 .icon3 {
+      position: absolute;
+      bottom: 65px;
+      left: 80px; }
+  main .main2 .anh4 {
+    position: relative; }
+    main .main2 .anh4 h3 {
+      position: absolute;
+      bottom: 28px;
+      left: 90px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      color: #da585c; }
+    main .main2 .anh4 .img4 {
+      position: absolute;
+      left: 33px;
+      top: 40px; }
+    main .main2 .anh4 .tex4 {
+      position: absolute;
+      font-size: 18px;
+      font-family: "Nunito", sans-serif;
+      bottom: 95px;
+      left: 30px;
+      width: 76%;
+      font-weight: bold; }
+    main .main2 .anh4 .icon4 {
+      position: absolute;
+      bottom: 65px;
+      left: 80px; }
+main .main3 {
+  margin: 10% 11% 0px 11%; }
+  main .main3 h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+    font-weight: bold; }
+  main .main3 .cua {
+    display: flex; }
+    main .main3 .cua .cua1 {
+      display: flex; }
+    main .main3 .cua .tex3 h3 {
+      font-family: "Nunito", sans-serif; }
+    main .main3 .cua .tex3 span {
+      font-family: "Nunito", sans-serif;
+      font-size: 24px;
+      font-weight: lighter; }
+    main .main3 .cua .date3 {
+      margin-left: 30%;
+      display: block;
+      text-align: right; }
+      main .main3 .cua .date3 h4 {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        font-weight: lighter; }
+  main .main3 h4 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+    font-weight: bold; }
+  main .main3 h5 {
+    font-family: "Nunito", sans-serif;
+    font-size: 24px; }
+
+footer {
+  width: 100%;
+  height: 100px; }
+  footer .bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%; }
+  footer .footer-logo {
+    padding-top: 13%;
+    display: flex; }
+    footer .footer-logo .kity-shop {
+      width: 20%;
+      padding-top: 6%;
+      margin-left: 5%; }
+      footer .footer-logo .kity-shop .logo {
+        width: 75%;
+        height: 50%;
+        padding-left: 20%; }
+      footer .footer-logo .kity-shop .icons {
+        text-align: center; }
+    footer .footer-logo .about-us {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 5%; }
+      footer .footer-logo .about-us .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .about-us .text1 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .quick-link {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 5%; }
+      footer .footer-logo .quick-link .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .quick-link .text2 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .update-our {
+      width: 26%;
+      padding-top: 8%; }
+      footer .footer-logo .update-our span {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white;
+        font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
