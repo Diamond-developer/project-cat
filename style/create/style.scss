@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+$color-pink:#DC686B;
+$font-nunito: 'Nunito',
+sans-serif;
+._background {
+    width: 100%;
+    height: 100vh;
+    background: #F0F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .cont {
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+        background-color: white;
+        width: 80%;
+        border-radius: 10px;
+        .hello {
+            width: 40%;
+            background-color: $color-pink;
+            // border-radius: 10px 0px 0px 10px;
+            background-image: url(../../public/image/login/chanmeo-01.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px 0px 0px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .logo {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+            ._hello {
+                text-align: center;
+                // padding-left: 5%;
+                // padding-right: 5%;
+                h1 {
+                    font-size: 48px;
+                    font-family: $font-nunito;
+                    font-weight: bold;
+                    color: white;
+                }
+                span {
+                    display: block;
+                    color: white;
+                    margin-top: 10%;
+                    margin-bottom: 15%;
+                    font-size: 18px;
+                }
+                .sign-in-hello {
+                    margin-top: 3%;
+                    margin-bottom: 5%;
+                    background-color: white;
+                    height: 57px;
+                    width: 218px;
+                    border: none;
+                    border-radius: 3px;
+                    font-family: $font-nunito;
+                    color: $color-pink;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .login {
+            width: 60%;
+            // background-color: white;
+            .form-login {
+                width: 60%;
+                text-align: center;
+                margin: auto;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                // padding-top: -1px;
+                h3 {
+                    font-size: 48px;
+                    font-family: $font-nunito;
+                    color: $color-pink;
+                }
+                .icon {
+                    // padding-top: 4%;
+                }
+                h5 {
+                    padding-top: 2%;
+                    font-size: 18px;
+                    font-family: $font-nunito;
+                }
+                ._col-2 {
+                    display: flex;
+                    .inp-right {
+                        padding-top: 3%;
+                        margin-left: 2%;
+                        img {
+                            position: absolute;
+                            padding: 18px;
+                            // min-width: 50px;
+                            text-align: center;
+                        }
+                        input {
+                            background-color: #fbeeef;
+                            border: 1px solid #f8e1e3;
+                            border-radius: 3px;
+                            width: 100%;
+                            height: 58px;
+                            padding-left: 60px;
+                            font-weight: bold;
+                            font-family: $font-nunito;
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .inp {
+                    padding-top: 3%;
+                    img {
+                        position: absolute;
+                        padding: 18px;
+                        // min-width: 50px;
+                        text-align: center;
+                    }
+                    input {
+                        background-color: #fbeeef;
+                        border: 1px solid #f8e1e3;
+                        border-radius: 3px;
+                        width: 100%;
+                        height: 58px;
+                        padding-left: 60px;
+                        font-weight: bold;
+                        font-family: $font-nunito;
+                        font-size: 16px;
+                    }
+                }
+                .forgot-pass {
+                    background-color: white;
+                    margin-top: 10%;
+                    height: 28px;
+                    width: 186px;
+                    border: none;
+                    border-radius: 3px;
+                    border-bottom: 2px solid #fae8e8;
+                    font-family: $font-nunito;
+                    font-size: 14px;
+                }
+                .form-check {
+                    text-align: left;
+                    margin-top: 2%;
+                    margin-bottom: 2%;
+                    .check-b-your {
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-family: $font-nunito;
+                        width: 5%;
+                        height: 72%;
+                    }
+                }
+                .sign-in {
+                    margin-top: 3%;
+                    margin-bottom: 5%;
+                    background-color: $color-pink;
+                    height: 57px;
+                    width: 218px;
+                    border: none;
+                    border-radius: 3px;
+                    font-family: $font-nunito;
+                    color: white;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+$color-pink:#DC686B;
+$font-nunito: 'Nunito',
+sans-serif;
+._background {
+    width: 100%;
+    height: 100vh;
+    background: #F0F3F3;
+    background-image: url('./../../public/image/login/bgtron.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .cont {
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+        background-color: white;
+        width: 80%;
+        border-radius: 10px;
+        .login {
+            width: 60%;
+            // background-color: white;
+            .logo {
+                position: absolute;
+            }
+            .form-login {
+                width: 60%;
+                text-align: center;
+                margin: auto;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                // padding-top: -1px;
+                h3 {
+                    font-size: 48px;
+                    font-family: $font-nunito;
+                    color: $color-pink;
+                }
+                .icon {
+                    padding-top: 4%;
+                }
+                h5 {
+                    padding-top: 15%;
+                    font-size: 18px;
+                    font-family: $font-nunito;
+                }
+                .inp {
+                    padding-top: 3%;
+                    img {
+                        position: absolute;
+                        padding: 18px;
+                        // min-width: 50px;
+                        text-align: center;
+                    }
+                    input {
+                        background-color: #fbeeef;
+                        border: 1px solid #f8e1e3;
+                        border-radius: 3px;
+                        width: 100%;
+                        height: 58px;
+                        padding-left: 60px;
+                        font-weight: bold;
+                        font-family: $font-nunito;
+                        font-size: 16px;
+                    }
+                }
+                .forgot-pass {
+                    background-color: white;
+                    margin-top: 10%;
+                    height: 28px;
+                    width: 186px;
+                    border: none;
+                    border-radius: 3px;
+                    border-bottom: 2px solid #fae8e8;
+                    font-family: $font-nunito;
+                    font-size: 14px;
+                    color: $color-pink;
+                }
+                .sign-in {
+                    margin-top: 3%;
+                    margin-bottom: 5%;
+                    background-color: $color-pink;
+                    height: 57px;
+                    width: 218px;
+                    border: none;
+                    border-radius: 3px;
+                    font-family: $font-nunito;
+                    color: white;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .hello {
+            width: 40%;
+            background-image: url(../../public/image/login/chanmeo-01.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            // background-color: #DC686B;
+            border-radius: 0px 10px 10px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ._hello {
+                text-align: center;
+                // padding-left: 5%;
+                // padding-right: 5%;
+                h1 {
+                    font-size: 48px;
+                    font-family: $font-nunito;
+                    font-weight: bold;
+                    color: white;
+                }
+                span {
+                    display: block;
+                    color: white;
+                    margin-top: 10%;
+                    margin-bottom: 15%;
+                    font-size: 18px;
+                }
+                .sign-in-hello {
+                    margin-top: 3%;
+                    margin-bottom: 5%;
+                    background-color: white;
+                    height: 57px;
+                    width: 218px;
+                    border: none;
+                    border-radius: 3px;
+                    font-family: $font-nunito;
+                    color: $color-pink;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

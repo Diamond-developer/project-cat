@@ -330,16 +330,16 @@ main {
                     margin-left: 20%;
                     margin-top: 5%;
                 }
-                span {
-                    top: 35px;
-                    left: 170px;
-                    position: absolute;
-                    transform: rotate(-15deg);
-                    font-family: $font-nunito;
-                    font-size: 20px;
-                    font-weight: bold;
-                    color: white;
-                }
+                // span {
+                //     top: 35px;
+                //     left: 170px;
+                //     position: absolute;
+                //     transform: rotate(-15deg);
+                //     font-family: $font-nunito;
+                //     font-size: 20px;
+                //     font-weight: bold;
+                //     color: white;
+                // }
             }
         }
     }
@@ -400,16 +400,16 @@ main {
                     margin-left: 20%;
                     margin-top: 5%;
                 }
-                span {
-                    top: 35px;
-                    left: 180px;
-                    position: absolute;
-                    transform: rotate(-15deg);
-                    font-family: $font-nunito;
-                    font-size: 20px;
-                    font-weight: bold;
-                    color: white;
-                }
+                // span {
+                //     top: 35px;
+                //     left: 180px;
+                //     position: absolute;
+                //     transform: rotate(-15deg);
+                //     font-family: $font-nunito;
+                //     font-size: 20px;
+                //     font-weight: bold;
+                //     color: white;
+                // }
             }
         }
         .img4 {
@@ -826,7 +826,7 @@ footer {
             margin-bottom: 8%;
             .chan {
                 .xoay {
-                    width: 13%;
+                    width: 10%;
                 }
                 span {
                     font-size: 25px;
@@ -882,11 +882,11 @@ footer {
                     img {
                         width: 50%;
                     }
-                    span {
-                        top: 18px;
-                        left: 90px;
-                        font-size: 10px;
-                    }
+                    // span {
+                    //     top: 18px;
+                    //     left: 90px;
+                    //     font-size: 10px;
+                    // }
                 }
             }
         }
@@ -923,11 +923,11 @@ footer {
                     img {
                         width: 50%;
                     }
-                    span {
-                        top: 20px;
-                        left: 92px;
-                        font-size: 10px;
-                    }
+                    // span {
+                    //     top: 20px;
+                    //     left: 92px;
+                    //     font-size: 10px;
+                    // }
                 }
             }
             .img4 {
@@ -1018,7 +1018,7 @@ footer {
     footer {
         height: 120px;
         .footer-logo {
-            padding-top: 11%;
+            padding-top: 14%;
             .kity-shop {
                 padding-top: 0%;
                 .logo {
@@ -1198,9 +1198,11 @@ footer {
             }
         }
         .main3 {
+            margin-top: 50px;
             .img3 {
                 img {
                     width: 120%;
+                    padding-top: 45px;
                 }
             }
             .tex3 {
@@ -1233,17 +1235,17 @@ footer {
                     img {
                         width: 50%;
                     }
-                    span {
-                        top: 18px;
-                        left: 90px;
-                        font-size: 10px;
-                    }
+                    // span {
+                    //     top: 18px;
+                    //     left: 90px;
+                    //     font-size: 10px;
+                    // }
                 }
             }
         }
         .main4 {
-            margin-top: 100px;
-            margin-bottom: 30px;
+            margin-top: 50px;
+            margin-bottom: 50px;
             .tex4 {
                 padding-left: 10%;
                 margin-left: 3%;
@@ -1274,16 +1276,17 @@ footer {
                     img {
                         width: 50%;
                     }
-                    span {
-                        top: 20px;
-                        left: 92px;
-                        font-size: 10px;
-                    }
+                    // span {
+                    //     top: 20px;
+                    //     left: 92px;
+                    //     font-size: 10px;
+                    // }
                 }
             }
             .img4 {
                 img {
                     width: 120%;
+                    padding-top: 40px;
                 }
             }
         }
@@ -1298,6 +1301,9 @@ footer {
                 .prod-delete {
                     opacity: 0;
                     position: absolute;
+                    .add-cart {
+                        margin-bottom: 0px;
+                    }
                 }
                 .prod {
                     width: 50%;
@@ -1310,6 +1316,7 @@ footer {
                     }
                     .add-cart {
                         width: 100%;
+                        margin-bottom: 0px;
                         .tex {
                             padding-left: 2%;
                             width: 50%;
@@ -1375,7 +1382,7 @@ footer {
     footer {
         height: 120px;
         .footer-logo {
-            padding-top: 11%;
+            padding-top: 12%;
             .kity-shop {
                 padding-top: 0%;
                 .logo {
@@ -1402,7 +1409,7 @@ footer {
             .about-us {
                 width: 30%;
                 padding-top: 5%;
-                margin-left: 11%;
+                margin-left: 10%;
                 .top {
                     opacity: 0;
                     font-size: 0px;

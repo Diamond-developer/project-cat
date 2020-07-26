@@ -255,15 +255,6 @@ main .main3 {
       main .main3 .tex3 .fish img {
         margin-left: 20%;
         margin-top: 5%; }
-      main .main3 .tex3 .fish span {
-        top: 35px;
-        left: 170px;
-        position: absolute;
-        transform: rotate(-15deg);
-        font-family: "Nunito", sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: white; }
 main .main4 {
   width: 100%;
   display: flex;
@@ -309,15 +300,6 @@ main .main4 {
       main .main4 .tex4 .fish img {
         margin-left: 20%;
         margin-top: 5%; }
-      main .main4 .tex4 .fish span {
-        top: 35px;
-        left: 180px;
-        position: absolute;
-        transform: rotate(-15deg);
-        font-family: "Nunito", sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: white; }
   main .main4 .img4 {
     width: 50%; }
     main .main4 .img4 img {
@@ -625,7 +607,7 @@ footer {
     margin-top: 4%;
     margin-bottom: 8%; }
     main .main1 .chan .xoay {
-      width: 13%; }
+      width: 10%; }
     main .main1 .chan span {
       font-size: 25px; }
     main .main1 .weOffer {
@@ -659,10 +641,6 @@ footer {
       margin-top: 3%; }
       main .main3 .tex3 .fish img {
         width: 50%; }
-      main .main3 .tex3 .fish span {
-        top: 18px;
-        left: 90px;
-        font-size: 10px; }
   main .main4 {
     margin-top: 100px;
     margin-bottom: 30px; }
@@ -686,10 +664,6 @@ footer {
         margin-top: 3%; }
         main .main4 .tex4 .fish img {
           width: 50%; }
-        main .main4 .tex4 .fish span {
-          top: 20px;
-          left: 92px;
-          font-size: 10px; }
     main .main4 .img4 img {
       width: 120%; }
   main .b-seller {
@@ -744,7 +718,7 @@ footer {
   footer {
     height: 120px; }
     footer .footer-logo {
-      padding-top: 11%; }
+      padding-top: 14%; }
       footer .footer-logo .kity-shop {
         padding-top: 0%; }
         footer .footer-logo .kity-shop .logo {
@@ -866,35 +840,34 @@ footer {
       position: absolute; }
     main .main2 .anh4 {
       position: absolute; }
-  main .main3 .img3 img {
-    width: 120%; }
-  main .main3 .tex3 {
-    padding-left: 15%;
-    margin-left: 0%;
-    margin-right: 11%; }
-    main .main3 .tex3 h3 {
-      font-size: 20px; }
-    main .main3 .tex3 span {
-      font-size: 10px; }
-    main .main3 .tex3 .price .hr h5 {
-      font-size: 13px;
-      top: 5px; }
-    main .main3 .tex3 .price .hr img {
-      width: 80px; }
-    main .main3 .tex3 .price h3 {
-      padding-top: 5px;
-      font-size: 13px; }
-    main .main3 .tex3 .fish {
-      margin-top: 3%; }
-      main .main3 .tex3 .fish img {
-        width: 50%; }
-      main .main3 .tex3 .fish span {
-        top: 18px;
-        left: 90px;
+  main .main3 {
+    margin-top: 50px; }
+    main .main3 .img3 img {
+      width: 120%;
+      padding-top: 45px; }
+    main .main3 .tex3 {
+      padding-left: 15%;
+      margin-left: 0%;
+      margin-right: 11%; }
+      main .main3 .tex3 h3 {
+        font-size: 20px; }
+      main .main3 .tex3 span {
         font-size: 10px; }
+      main .main3 .tex3 .price .hr h5 {
+        font-size: 13px;
+        top: 5px; }
+      main .main3 .tex3 .price .hr img {
+        width: 80px; }
+      main .main3 .tex3 .price h3 {
+        padding-top: 5px;
+        font-size: 13px; }
+      main .main3 .tex3 .fish {
+        margin-top: 3%; }
+        main .main3 .tex3 .fish img {
+          width: 50%; }
   main .main4 {
-    margin-top: 100px;
-    margin-bottom: 30px; }
+    margin-top: 50px;
+    margin-bottom: 50px; }
     main .main4 .tex4 {
       padding-left: 10%;
       margin-left: 3%;
@@ -915,12 +888,9 @@ footer {
         margin-top: 3%; }
         main .main4 .tex4 .fish img {
           width: 50%; }
-        main .main4 .tex4 .fish span {
-          top: 20px;
-          left: 92px;
-          font-size: 10px; }
     main .main4 .img4 img {
-      width: 120%; }
+      width: 120%;
+      padding-top: 40px; }
   main .b-seller {
     font-size: 25px; }
     main .b-seller .xoay {
@@ -928,6 +898,8 @@ footer {
   main .main5 .cate .prod-delete {
     opacity: 0;
     position: absolute; }
+    main .main5 .cate .prod-delete .add-cart {
+      margin-bottom: 0px; }
   main .main5 .cate .prod {
     width: 50%; }
     main .main5 .cate .prod .prod-child1 {
@@ -936,7 +908,8 @@ footer {
     main .main5 .cate .prod .prod-child2 {
       width: 100%; }
     main .main5 .cate .prod .add-cart {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 0px; }
       main .main5 .cate .prod .add-cart .tex {
         padding-left: 2%;
         width: 50%; }
@@ -978,7 +951,7 @@ footer {
   footer {
     height: 120px; }
     footer .footer-logo {
-      padding-top: 11%; }
+      padding-top: 12%; }
       footer .footer-logo .kity-shop {
         padding-top: 0%; }
         footer .footer-logo .kity-shop .logo {
@@ -999,7 +972,7 @@ footer {
       footer .footer-logo .about-us {
         width: 30%;
         padding-top: 5%;
-        margin-left: 11%; }
+        margin-left: 10%; }
         footer .footer-logo .about-us .top {
           opacity: 0;
           font-size: 0px; }

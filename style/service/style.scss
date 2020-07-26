@@ -69,6 +69,9 @@ header {
         font-size: 100px;
         font-family: $font-bebas;
     }
+    ._item {
+        visibility: hidden;
+    }
 }
 
 .service {
@@ -537,21 +540,31 @@ footer {
         right: 450px;
         z-index: 1;
     }
+    .gach {
+        position: relative;
+        width: 50%;
+        // height: 280%;
+        margin-left: 50%;
+        margin-top: -10%;
+    }
     .warring {
-        background-color: $color-pink;
+        // background-color: $color-pink;
+        // background-image: url('../../public/image/service/ft-warring.png');
+        // background-repeat: no-repeat;
+        // background-size: 100%;
         border-radius: 20px;
         width: 50%;
-        height: 250px;
+        // height: 250px;
         position: absolute;
         bottom: 175px;
-        left: 245px;
+        left: 300px;
         z-index: 1;
         img {
             // text-align: center;
             margin-left: auto;
             margin-right: auto;
             display: block;
-            margin-top: 5%;
+            margin-top: 10%;
             margin-bottom: 2%;
         }
         h5 {
@@ -560,11 +573,11 @@ footer {
             font-size: 15px;
             color: white;
             padding-left: 10%;
-            padding-right: 10%;
+            padding-right: 11%;
         }
     }
     .footer-logo {
-        padding-top: 13%;
+        padding-top: 3%;
         display: flex;
         .kity-shop {
             width: 20%;
@@ -612,6 +625,14 @@ footer {
             }
         }
         .update-our {
+            // width: 26%;
+            // padding-top: 8%;
+            // span {
+            //     font-family: $font-nunito;
+            //     font-size: 16px;
+            //     color: white;
+            //     font-weight: bold;
+            // }
             width: 26%;
             padding-top: 8%;
             span {
@@ -620,6 +641,366 @@ footer {
                 color: white;
                 font-weight: bold;
             }
+            .inp {
+                display: flex;
+                .tex {
+                    margin-right: 3%;
+                    .ft-inp {
+                        border: none;
+                        border-radius: 3px;
+                        width: 250px;
+                        height: 35px;
+                        color: #DA585C;
+                    }
+                }
+                button {
+                    border: none;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 3px;
+                    img {
+                        padding: 5px;
+                    }
+                }
+            }
         }
     }
 }
+
+@media(max-width: 992px) {
+    header {
+        height: 370px;
+        background-attachment: unset;
+        background-size: cover;
+        .menu {
+            .menu-between {
+                visibility: hidden;
+                .between-child-fix {
+                    position: absolute;
+                }
+            }
+            ._item {
+                visibility: visible;
+                position: relative;
+                float: right;
+                color: white;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                top: 70px;
+                right: 5px;
+                .layer1 {
+                    position: absolute;
+                    top: -42px;
+                    left: 100px;
+                    // top: 5%;
+                    // left: 5%;
+                    i {
+                        color: white;
+                    }
+                }
+                .layer2 {
+                    visibility: hidden;
+                    position: absolute;
+                    top: 5px;
+                    left: 63px;
+                    ul {
+                        li {
+                            list-style: none;
+                            a {
+                                color: white;
+                                font-size: 16px;
+                                float: right;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                &:hover .layer2 {
+                    visibility: visible;
+                }
+            }
+            .menu-right {
+                position: absolute;
+                opacity: 0;
+            }
+        }
+        .sendUs {
+            font-size: 24px;
+            margin-top: 14%;
+            margin-left: 63%;
+            font-family: $font-nunito;
+            font-weight: bold;
+        }
+        .yourRequest {
+            font-size: 24px;
+            margin-left: 74%;
+            font-family: $font-nunito;
+            font-weight: bold;
+            // text-align: right;
+        }
+    }
+    .service {
+        font-size: 24px;
+    }
+    main {
+        .main1 {
+            height: 770px;
+            .form-img {
+                height: 542px;
+                top: 100px;
+                img {}
+                .form-service {
+                    h3 {
+                        font-size: 22px;
+                    }
+                    .form-l-r {
+                        .left {
+                            h4 {
+                                font-size: 14px;
+                            }
+                            .step {
+                                .step-l {
+                                    h5 {
+                                        font-size: 8px;
+                                        padding-bottom: 2px;
+                                    }
+                                }
+                                .step-r {
+                                    h5 {
+                                        font-size: 9px;
+                                        padding: 1px;
+                                    }
+                                }
+                            }
+                        }
+                        .right {
+                            button {
+                                font-size: 12px;
+                                margin-top: 9%;
+                            }
+                        }
+                    }
+                    .hotline {
+                        .price {
+                            font-size: 13px;
+                        }
+                        .hl {
+                            font-size: 9px;
+                        }
+                        .submit {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        .main2 {
+            height: 797px;
+            .form-img {
+                height: 592px;
+                border-radius: 21px;
+                top: 100px;
+                img {}
+                .form-service {
+                    h3 {
+                        font-size: 22px;
+                    }
+                    .form-l-r {
+                        .left {
+                            h4 {
+                                font-size: 14px;
+                            }
+                            .step {
+                                .step-l {
+                                    h5 {
+                                        font-size: 8px;
+                                        padding-bottom: 2px;
+                                    }
+                                }
+                                .step-r {
+                                    h5 {
+                                        font-size: 9px;
+                                        padding: 1px;
+                                    }
+                                }
+                            }
+                        }
+                        .right {
+                            button {
+                                font-size: 12px;
+                                margin-top: 9%;
+                            }
+                        }
+                    }
+                    .hotline {
+                        .price {
+                            font-size: 13px;
+                        }
+                        .hl {
+                            font-size: 9px;
+                        }
+                        .submit {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        .main3 {
+            height: 797px;
+            .form-img {
+                height: 592px;
+                border-radius: 21px;
+                top: 100px;
+                img {}
+                .form-service {
+                    h3 {
+                        font-size: 22px;
+                    }
+                    .form-l-r {
+                        .left {
+                            h4 {
+                                font-size: 14px;
+                            }
+                            .step {
+                                .step-l {
+                                    h5 {
+                                        font-size: 8px;
+                                        padding-bottom: 2px;
+                                    }
+                                }
+                                .step-r {
+                                    h5 {
+                                        font-size: 9px;
+                                        padding: 1px;
+                                    }
+                                }
+                            }
+                        }
+                        .right {
+                            button {
+                                font-size: 12px;
+                                margin-top: 9%;
+                            }
+                        }
+                    }
+                    .hotline {
+                        .price {
+                            font-size: 13px;
+                        }
+                        .hl {
+                            font-size: 9px;
+                        }
+                        .submit {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        height: 0px;
+        .circle {
+            width: 30%;
+            top: -80px;
+            right: 24px;
+        }
+        .gach {
+            margin-left: 85%;
+        }
+        .warring {
+            width: 50%;
+            left: 54px;
+            bottom: 99px;
+            img {
+                width: 8%;
+                margin-top: 10%;
+            }
+            h5 {
+                font-size: 10px;
+            }
+        }
+        .footer-logo {
+            padding-top: 2%;
+            .kity-shop {
+                padding-top: 0%;
+                .logo {
+                    margin-top: 35px;
+                    img {
+                        width: 80%;
+                        height: 65%;
+                        // padding-left: 20%;
+                        display: block;
+                    }
+                }
+                .icons {
+                    height: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 20px;
+                        height: 16px;
+                        padding-left: 4px;
+                    }
+                }
+            }
+            .about-us {
+                width: 32%;
+                padding-top: 5%;
+                margin-left: 10%;
+                .top {
+                    opacity: 0;
+                    font-size: 0px;
+                }
+                .text1 {
+                    font-size: 10px;
+                    font-weight: lighter;
+                }
+            }
+            .quick-link {
+                width: 1%;
+                opacity: 0;
+                padding-top: 0%;
+                .top {
+                    font-size: 0px;
+                }
+                .text2 {
+                    font-size: 0px;
+                }
+            }
+            .update-our {
+                width: 40%;
+                padding-top: 8%;
+                margin-left: 20px;
+                span {
+                    visibility: hidden;
+                    font-size: 1px;
+                }
+                .inp {
+                    .tex {
+                        .ft-inp {
+                            width: 125px;
+                            height: 20px;
+                            font-size: 10px;
+                        }
+                    }
+                    button {
+                        margin-top: 4px;
+                        width: 20px;
+                        height: 20px;
+                        img {
+                            width: 15px;
+                            height: 15px;
+                            padding: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 572px) {}

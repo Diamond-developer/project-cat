@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+._background {
+  width: 100%;
+  height: 100vh;
+  background: #F0F3F3;
+  background-image: url("./../../public/image/login/bgtron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  ._background .cont {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px; }
+    ._background .cont .login {
+      width: 60%; }
+      ._background .cont .login .logo {
+        position: absolute; }
+      ._background .cont .login .form-login {
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%; }
+        ._background .cont .login .form-login h3 {
+          font-size: 48px;
+          font-family: "Nunito", sans-serif;
+          color: #DC686B; }
+        ._background .cont .login .form-login .icon {
+          padding-top: 4%; }
+        ._background .cont .login .form-login h5 {
+          padding-top: 15%;
+          font-size: 18px;
+          font-family: "Nunito", sans-serif; }
+        ._background .cont .login .form-login .inp {
+          padding-top: 3%; }
+          ._background .cont .login .form-login .inp img {
+            position: absolute;
+            padding: 18px;
+            text-align: center; }
+          ._background .cont .login .form-login .inp input {
+            background-color: #fbeeef;
+            border: 1px solid #f8e1e3;
+            border-radius: 3px;
+            width: 100%;
+            height: 58px;
+            padding-left: 60px;
+            font-weight: bold;
+            font-family: "Nunito", sans-serif;
+            font-size: 16px; }
+        ._background .cont .login .form-login .forgot-pass {
+          background-color: white;
+          margin-top: 10%;
+          height: 28px;
+          width: 186px;
+          border: none;
+          border-radius: 3px;
+          border-bottom: 2px solid #fae8e8;
+          font-family: "Nunito", sans-serif;
+          font-size: 14px;
+          color: #DC686B; }
+        ._background .cont .login .form-login .sign-in {
+          margin-top: 3%;
+          margin-bottom: 5%;
+          background-color: #DC686B;
+          height: 57px;
+          width: 218px;
+          border: none;
+          border-radius: 3px;
+          font-family: "Nunito", sans-serif;
+          color: white;
+          font-size: 24px;
+          font-weight: bold; }
+    ._background .cont .hello {
+      width: 40%;
+      background-image: url(../../public/image/login/chanmeo-01.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 0px 10px 10px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      ._background .cont .hello ._hello {
+        text-align: center; }
+        ._background .cont .hello ._hello h1 {
+          font-size: 48px;
+          font-family: "Nunito", sans-serif;
+          font-weight: bold;
+          color: white; }
+        ._background .cont .hello ._hello span {
+          display: block;
+          color: white;
+          margin-top: 10%;
+          margin-bottom: 15%;
+          font-size: 18px; }
+        ._background .cont .hello ._hello .sign-in-hello {
+          margin-top: 3%;
+          margin-bottom: 5%;
+          background-color: white;
+          height: 57px;
+          width: 218px;
+          border: none;
+          border-radius: 3px;
+          font-family: "Nunito", sans-serif;
+          color: #DC686B;
+          font-size: 24px;
+          font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */

@@ -51,6 +51,8 @@ header {
     margin-left: 9%;
     font-size: 100px;
     font-family: "Bebas Neue", cursive; }
+  header ._item {
+    visibility: hidden; }
 
 .service {
   text-align: center;
@@ -426,20 +428,23 @@ footer {
     bottom: 150px;
     right: 450px;
     z-index: 1; }
+  footer .gach {
+    position: relative;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -10%; }
   footer .warring {
-    background-color: #da585c;
     border-radius: 20px;
     width: 50%;
-    height: 250px;
     position: absolute;
     bottom: 175px;
-    left: 245px;
+    left: 300px;
     z-index: 1; }
     footer .warring img {
       margin-left: auto;
       margin-right: auto;
       display: block;
-      margin-top: 5%;
+      margin-top: 10%;
       margin-bottom: 2%; }
     footer .warring h5 {
       font-family: "Nunito", sans-serif;
@@ -447,9 +452,9 @@ footer {
       font-size: 15px;
       color: white;
       padding-left: 10%;
-      padding-right: 10%; }
+      padding-right: 11%; }
   footer .footer-logo {
-    padding-top: 13%;
+    padding-top: 3%;
     display: flex; }
     footer .footer-logo .kity-shop {
       width: 20%;
@@ -495,5 +500,228 @@ footer {
         font-size: 16px;
         color: white;
         font-weight: bold; }
+      footer .footer-logo .update-our .inp {
+        display: flex; }
+        footer .footer-logo .update-our .inp .tex {
+          margin-right: 3%; }
+          footer .footer-logo .update-our .inp .tex .ft-inp {
+            border: none;
+            border-radius: 3px;
+            width: 250px;
+            height: 35px;
+            color: #DA585C; }
+        footer .footer-logo .update-our .inp button {
+          border: none;
+          width: 35px;
+          height: 35px;
+          border-radius: 3px; }
+          footer .footer-logo .update-our .inp button img {
+            padding: 5px; }
+
+@media (max-width: 992px) {
+  header {
+    height: 370px;
+    background-attachment: unset;
+    background-size: cover; }
+    header .menu .menu-between {
+      visibility: hidden; }
+      header .menu .menu-between .between-child-fix {
+        position: absolute; }
+    header .menu ._item {
+      visibility: visible;
+      position: relative;
+      float: right;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      top: 70px;
+      right: 5px; }
+      header .menu ._item .layer1 {
+        position: absolute;
+        top: -42px;
+        left: 100px; }
+        header .menu ._item .layer1 i {
+          color: white; }
+      header .menu ._item .layer2 {
+        visibility: hidden;
+        position: absolute;
+        top: 5px;
+        left: 63px; }
+        header .menu ._item .layer2 ul li {
+          list-style: none; }
+          header .menu ._item .layer2 ul li a {
+            color: white;
+            font-size: 16px;
+            float: right;
+            text-decoration: none; }
+      header .menu ._item:hover .layer2 {
+        visibility: visible; }
+    header .menu .menu-right {
+      position: absolute;
+      opacity: 0; }
+    header .sendUs {
+      font-size: 24px;
+      margin-top: 14%;
+      margin-left: 63%;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold; }
+    header .yourRequest {
+      font-size: 24px;
+      margin-left: 74%;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold; }
+
+  .service {
+    font-size: 24px; }
+
+  main .main1 {
+    height: 770px; }
+    main .main1 .form-img {
+      height: 542px;
+      top: 100px; }
+      main .main1 .form-img .form-service h3 {
+        font-size: 22px; }
+      main .main1 .form-img .form-service .form-l-r .left h4 {
+        font-size: 14px; }
+      main .main1 .form-img .form-service .form-l-r .left .step .step-l h5 {
+        font-size: 8px;
+        padding-bottom: 2px; }
+      main .main1 .form-img .form-service .form-l-r .left .step .step-r h5 {
+        font-size: 9px;
+        padding: 1px; }
+      main .main1 .form-img .form-service .form-l-r .right button {
+        font-size: 12px;
+        margin-top: 9%; }
+      main .main1 .form-img .form-service .hotline .price {
+        font-size: 13px; }
+      main .main1 .form-img .form-service .hotline .hl {
+        font-size: 9px; }
+      main .main1 .form-img .form-service .hotline .submit {
+        font-size: 14px; }
+  main .main2 {
+    height: 797px; }
+    main .main2 .form-img {
+      height: 592px;
+      border-radius: 21px;
+      top: 100px; }
+      main .main2 .form-img .form-service h3 {
+        font-size: 22px; }
+      main .main2 .form-img .form-service .form-l-r .left h4 {
+        font-size: 14px; }
+      main .main2 .form-img .form-service .form-l-r .left .step .step-l h5 {
+        font-size: 8px;
+        padding-bottom: 2px; }
+      main .main2 .form-img .form-service .form-l-r .left .step .step-r h5 {
+        font-size: 9px;
+        padding: 1px; }
+      main .main2 .form-img .form-service .form-l-r .right button {
+        font-size: 12px;
+        margin-top: 9%; }
+      main .main2 .form-img .form-service .hotline .price {
+        font-size: 13px; }
+      main .main2 .form-img .form-service .hotline .hl {
+        font-size: 9px; }
+      main .main2 .form-img .form-service .hotline .submit {
+        font-size: 14px; }
+  main .main3 {
+    height: 797px; }
+    main .main3 .form-img {
+      height: 592px;
+      border-radius: 21px;
+      top: 100px; }
+      main .main3 .form-img .form-service h3 {
+        font-size: 22px; }
+      main .main3 .form-img .form-service .form-l-r .left h4 {
+        font-size: 14px; }
+      main .main3 .form-img .form-service .form-l-r .left .step .step-l h5 {
+        font-size: 8px;
+        padding-bottom: 2px; }
+      main .main3 .form-img .form-service .form-l-r .left .step .step-r h5 {
+        font-size: 9px;
+        padding: 1px; }
+      main .main3 .form-img .form-service .form-l-r .right button {
+        font-size: 12px;
+        margin-top: 9%; }
+      main .main3 .form-img .form-service .hotline .price {
+        font-size: 13px; }
+      main .main3 .form-img .form-service .hotline .hl {
+        font-size: 9px; }
+      main .main3 .form-img .form-service .hotline .submit {
+        font-size: 14px; }
+
+  footer {
+    height: 0px; }
+    footer .circle {
+      width: 30%;
+      top: -80px;
+      right: 24px; }
+    footer .gach {
+      margin-left: 85%; }
+    footer .warring {
+      width: 50%;
+      left: 54px;
+      bottom: 99px; }
+      footer .warring img {
+        width: 8%;
+        margin-top: 10%; }
+      footer .warring h5 {
+        font-size: 10px; }
+    footer .footer-logo {
+      padding-top: 2%; }
+      footer .footer-logo .kity-shop {
+        padding-top: 0%; }
+        footer .footer-logo .kity-shop .logo {
+          margin-top: 35px; }
+          footer .footer-logo .kity-shop .logo img {
+            width: 80%;
+            height: 65%;
+            display: block; }
+        footer .footer-logo .kity-shop .icons {
+          height: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          footer .footer-logo .kity-shop .icons img {
+            width: 20px;
+            height: 16px;
+            padding-left: 4px; }
+      footer .footer-logo .about-us {
+        width: 32%;
+        padding-top: 5%;
+        margin-left: 10%; }
+        footer .footer-logo .about-us .top {
+          opacity: 0;
+          font-size: 0px; }
+        footer .footer-logo .about-us .text1 {
+          font-size: 10px;
+          font-weight: lighter; }
+      footer .footer-logo .quick-link {
+        width: 1%;
+        opacity: 0;
+        padding-top: 0%; }
+        footer .footer-logo .quick-link .top {
+          font-size: 0px; }
+        footer .footer-logo .quick-link .text2 {
+          font-size: 0px; }
+      footer .footer-logo .update-our {
+        width: 40%;
+        padding-top: 8%;
+        margin-left: 20px; }
+        footer .footer-logo .update-our span {
+          visibility: hidden;
+          font-size: 1px; }
+        footer .footer-logo .update-our .inp .tex .ft-inp {
+          width: 125px;
+          height: 20px;
+          font-size: 10px; }
+        footer .footer-logo .update-our .inp button {
+          margin-top: 4px;
+          width: 20px;
+          height: 20px; }
+          footer .footer-logo .update-our .inp button img {
+            width: 15px;
+            height: 15px;
+            padding: 2px; } }
 
 /*# sourceMappingURL=style.css.map */
