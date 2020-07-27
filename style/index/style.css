@@ -255,6 +255,9 @@ main .main3 {
       main .main3 .tex3 .fish img {
         margin-left: 20%;
         margin-top: 5%; }
+      main .main3 .tex3 .fish:hover {
+        transition: 0.4s;
+        transform: rotate(15deg); }
 main .main4 {
   width: 100%;
   display: flex;
@@ -300,6 +303,9 @@ main .main4 {
       main .main4 .tex4 .fish img {
         margin-left: 20%;
         margin-top: 5%; }
+      main .main4 .tex4 .fish:hover {
+        transition: 0.4s;
+        transform: rotate(15deg); }
   main .main4 .img4 {
     width: 50%; }
     main .main4 .img4 img {

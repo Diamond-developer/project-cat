@@ -330,6 +330,10 @@ main {
                     margin-left: 20%;
                     margin-top: 5%;
                 }
+                &:hover {
+                    transition: 0.4s;
+                    transform: rotate(15deg);
+                }
                 // span {
                 //     top: 35px;
                 //     left: 170px;
@@ -399,6 +403,10 @@ main {
                 img {
                     margin-left: 20%;
                     margin-top: 5%;
+                }
+                &:hover {
+                    transition: 0.4s;
+                    transform: rotate(15deg);
                 }
                 // span {
                 //     top: 35px;
