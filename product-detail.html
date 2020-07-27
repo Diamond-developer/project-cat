@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -29,6 +31,22 @@
                 <a href="#" class="between-child">Service</a>
                 <a href="#" class="between-child">Contact</a> -->
             </div>
+
+            <div class="_item">
+                <a href="#" class="layer1">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!-- Navigation links (hidden by default) -->
+                <div class="layer2">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
             <div class="menu-right">
                 <a href="#"><img src="./public/icons/search.png" alt=""></i>
                 </a>
@@ -46,13 +64,13 @@
                     <img class="max-width" src="./public/image/product-detail/product-content.png" alt="content">
                 </div>
                 <div class="child">
-                    <img src="./public/image/product-detail/product-icon-left.png" alt="child">
+                    <img src="./public/image/product-detail/product-icon-left.png" alt="child" class="arrow-left">
                     <img src="./public/image/product-detail/product-child.png" alt="child">
                     <img src="./public/image/product-detail/product-child.png" alt="child">
                     <img src="./public/image/product-detail/product-child.png" alt="child">
                     <img src="./public/image/product-detail/product-child.png" alt="child">
                     <img src="./public/image/product-detail/product-child.png" alt="child">
-                    <img src="./public/image/product-detail/product-icon-right.png" alt="child">
+                    <img src="./public/image/product-detail/product-icon-right.png" alt="child" class="arrow-left">
                 </div>
             </div>
             <div class="detail">
@@ -122,7 +140,7 @@
             <hr>
             <div class="cua">
                 <div class="cua1">
-                    <img src="./public/image/product-detail/cua-icon.png" alt="">
+                    <img src="./public/image/product-detail/cua-icon.png" alt="" class="cua-img">
                     <div class="tex3">
                         <h3>CUA</h3>
                         <span>Mauris placerat eleifend leo.</span>
@@ -136,9 +154,9 @@
             <h4>Add a review</h4>
             <h5>Your Rating</h5>
             <img src="./public/image/product-detail/star-default-icon.png" alt="">
-            <h5>Your Review</h5>
 
             <form>
+                <label for="inputAddress">Your Review:</label>
                 <textarea class="form-control tex" id="exampleFormControlTextarea1" rows="3" style="height: 154px; background-color: white; border: 1px solid #C4C4C4;  margin-bottom: 2%;"></textarea>
 
                 <div class="form-group">
@@ -171,7 +189,11 @@
         <img src="./public/image/footer.png" class="bg" alt="">
         <div class="footer-logo">
             <div class="kity-shop">
-                <img src="./public/image/logo-footer.png" class="logo" alt="" srcset="">
+
+                <div class="logo">
+                    <img src="./public/image/logo-footer.png" alt="" srcset="">
+                </div>
+
                 <div class="icons">
                     <img src="./public/icons/GroupFB.png" alt="">
                     <img src="./public/icons/GroupCamera.png" alt="">
@@ -192,21 +214,12 @@
             </div>
             <div class="update-our">
                 <span>Update Our New Products</span>
-                <div class="text-input">
-                    <!-- <input type="text" class="inp" placeholder="*Enter Your Email"> -->
-                    <!-- <form>
-                        <div class="form-group">
-                            <input type="email" placeholder="*Enter Your Email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="width: 60%;">
-                            <button type="submit" class="btn btn-primary"><img src="./public/icons/send 1.png" alt=""></button>
-                        </div>
-                    </form> -->
 
-                    <form class="form-inline">
-                        <label class="sr-only" for="inlineFormInputName2">Name</label>
-                        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="*Enter Your Email">
-                        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-                        <button type="submit" class="btn btn-primary mb-2" style="background-color: white; border: none;"><img src="./public/icons/send 1.png" alt=""></button>
-                    </form>
+                <div class="inp">
+                    <div class="tex">
+                        <input type="text" class="ft-inp" placeholder="*Enter Your Email">
+                    </div>
+                    <button class="bt"><img src="./public/icons/send 1.png" alt=""></button>
                 </div>
             </div>
         </div>

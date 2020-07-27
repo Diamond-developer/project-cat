@@ -579,7 +579,8 @@ footer {
     height: 770px; }
     main .main1 .form-img {
       height: 542px;
-      top: 100px; }
+      top: 100px;
+      border-radius: 21px; }
       main .main1 .form-img .form-service h3 {
         font-size: 22px; }
       main .main1 .form-img .form-service .form-l-r .left h4 {

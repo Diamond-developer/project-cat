@@ -408,60 +408,6 @@ main .main5 {
               width: 20px;
               height: 17px;
               color: white; }
-    main .main5 .cate .prodImg {
-      margin-left: 5px;
-      margin-right: 5px;
-      position: relative; }
-      main .main5 .cate .prodImg .prodImg4 {
-        z-index: 1;
-        position: absolute;
-        top: -12px;
-        left: 58px; }
-      main .main5 .cate .prodImg .prodImg3 {
-        position: absolute;
-        top: 5px;
-        right: 5px; }
-      main .main5 .cate .prodImg .prodImg2 {
-        top: 8px;
-        left: 48px;
-        position: absolute; }
-      main .main5 .cate .prodImg .add-cart {
-        display: flex;
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 25px; }
-        main .main5 .cate .prodImg .add-cart .tex {
-          width: 50%; }
-          main .main5 .cate .prodImg .add-cart .tex h3 {
-            font-size: 18px;
-            font-family: "Nunito", sans-serif; }
-          main .main5 .cate .prodImg .add-cart .tex span {
-            font-size: 18px;
-            font-family: "Nunito", sans-serif;
-            color: #da585c;
-            font-weight: bold; }
-        main .main5 .cate .prodImg .add-cart .btn-cart {
-          width: 50%; }
-          main .main5 .cate .prodImg .add-cart .btn-cart .btn-flex {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 166px;
-            height: 53px;
-            border: none;
-            background-color: #da585c;
-            border-radius: 5px; }
-            main .main5 .cate .prodImg .add-cart .btn-cart .btn-flex h4 {
-              padding-top: 10px;
-              font-family: "Nunito", sans-serif;
-              font-size: 16px;
-              display: inline;
-              color: white; }
-            main .main5 .cate .prodImg .add-cart .btn-cart .btn-flex img {
-              padding-left: 2px;
-              width: 20px;
-              height: 17px;
-              color: white; }
 main .main6 {
   display: flex;
   margin: 12% 10% 6% 10%; }

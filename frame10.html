@@ -11,46 +11,42 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./style/frame10/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #da585c;">
-        <a class="navbar-brand" href="#" style="
-            margin-left: 10%;
-            margin-right: 10%;
-            width: 20%;">
-            <img src="./public/image/logo-final.png" alt="" style="width: 40%; height: 40%;">
-        </a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item hver">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item hver">
-                    <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item hver">
-                    <a class="nav-link" href="#">Service</a>
-                </li>
-                <li class="nav-item hver">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0" style="width: 35%;">
-                <a href="#" class="pr"><img src="./public/icons/search.png" alt=""></i>
+    <header>
+        <div class="menu">
+            <img src="./public/image/logo-final.png" alt="" class="logo">
+            <div class="menu-giua">
+                <a href="#" class="layer1">
+                    <i class="fa fa-bars"></i>
                 </a>
-                <a href="#" class="pr"><img src="./public/icons/shopping.png" alt=""></a>
-                <a href="#" class="pr"><img src="./public/icons/user.png" alt=""></a>
-            </form>
+                <div class="menu-cap">
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Service</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <div class="menu-phai">
+                <a href="#"><img src="./public/icons/search.png" alt=""></i>
+                </a>
+                <a href="#"><img src="./public/icons/shopping.png" alt=""></a>
+                <a href="#"><img src="./public/icons/user.png" alt=""></a>
+            </div>
         </div>
-    </nav>
+    </header>
 
     <div class="form-order">
         <span>Your Order<b>KT647045</b></span>
         <span>Order Total<b>$43.85</b></span>
-        <i>Please select a payment method</i>
+        <i>Please select your prefered bank and make your transfer.<br>After receiving your payment, our Customer Service would call and send you an email of Order Confirmation.</i>
     </div>
 
     <div class="card-icon">
@@ -146,7 +142,11 @@
         <img src="./public/image/footer.png" class="bg" alt="">
         <div class="footer-logo">
             <div class="kity-shop">
-                <img src="./public/image/logo-footer.png" class="logo" alt="" srcset="">
+
+                <div class="logo">
+                    <img src="./public/image/logo-footer.png" alt="" srcset="">
+                </div>
+
                 <div class="icons">
                     <img src="./public/icons/GroupFB.png" alt="">
                     <img src="./public/icons/GroupCamera.png" alt="">
@@ -167,14 +167,12 @@
             </div>
             <div class="update-our">
                 <span>Update Our New Products</span>
-                <div class="text-input">
 
-                    <form class="form-inline">
-                        <label class="sr-only" for="inlineFormInputName2">Name</label>
-                        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="*Enter Your Email">
-                        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-                        <button type="submit" class="btn btn-primary mb-2" style="background-color: white; border: none;"><img src="./public/icons/send 1.png" alt=""></button>
-                    </form>
+                <div class="inp">
+                    <div class="tex">
+                        <input type="text" class="ft-inp" placeholder="*Enter Your Email">
+                    </div>
+                    <button class="bt"><img src="./public/icons/send 1.png" alt=""></button>
                 </div>
             </div>
         </div>

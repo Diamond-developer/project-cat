@@ -6,6 +6,9 @@
   width: 100%;
   height: 100vh;
   background: #F0F3F3;
+  background-image: url("./../../public/image/login/bgtron.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -137,5 +140,57 @@
           color: white;
           font-size: 24px;
           font-weight: bold; }
+
+@media (max-width: 992px) {
+  ._background .cont .hello ._hello h1 {
+    font-size: 36px; }
+  ._background .cont .hello ._hello .sign-in-hello {
+    height: 41px;
+    width: 159px;
+    font-size: 24px;
+    border-radius: 5px; }
+  ._background .cont .login .logo {
+    width: 10%; }
+  ._background .cont .login .form-login h3 {
+    font-size: 33px;
+    font-weight: bold; }
+  ._background .cont .login .form-login .icon img {
+    width: 13%; }
+  ._background .cont .login .form-login h5 {
+    font-size: 12px; }
+  ._background .cont .login .form-login .inp img {
+    padding: 8px 8px 0px 8px;
+    width: 4%;
+    height: 5%; }
+  ._background .cont .login .form-login .inp input {
+    height: 38px;
+    padding-left: 35px;
+    font-size: 13px; }
+  ._background .cont .login .form-login ._col-2 .inp img {
+    padding: 8px 8px 0px 8px;
+    width: 4%;
+    height: 5%; }
+  ._background .cont .login .form-login ._col-2 .inp input {
+    height: 38px;
+    padding-left: 35px;
+    font-size: 13px; }
+  ._background .cont .login .form-login ._col-2 .inp-right img {
+    padding: 8px 8px 0px 8px;
+    width: 4%;
+    height: 5%; }
+  ._background .cont .login .form-login ._col-2 .inp-right input {
+    height: 38px;
+    padding-left: 35px;
+    font-size: 13px; }
+  ._background .cont .login .form-login .form-check {
+    font-size: 14px; }
+  ._background .cont .login .form-login .forgot-pass {
+    font-size: 12px;
+    width: 138px; }
+  ._background .cont .login .form-login .sign-in {
+    height: 41px;
+    width: 159px;
+    font-size: 24px;
+    border-radius: 5px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,7 +12,7 @@ sans-serif;
     background: #F0F3F3;
     background-image: url('./../../public/image/login/bgtron.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ sans-serif;
         width: 80%;
         border-radius: 10px;
         .login {
-            width: 60%;
+            width: 100%;
             // background-color: white;
             .logo {
                 position: absolute;
@@ -97,10 +97,11 @@ sans-serif;
             }
         }
         .hello {
-            width: 40%;
+            // width: 100%;
+            height: 100%;
             background-image: url(../../public/image/login/chanmeo-01.png);
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100% 100%;
             // background-color: #DC686B;
             border-radius: 0px 10px 10px 0px;
             display: flex;
@@ -135,6 +136,88 @@ sans-serif;
                     color: $color-pink;
                     font-size: 24px;
                     font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:992px) {
+    ._background {
+        .cont {
+            .login {
+                .logo {
+                    width: 15%;
+                }
+                .form-login {
+                    h3 {
+                        font-size: 40px;
+                        font-weight: bold;
+                    }
+                    .icon {
+                        img {
+                            width: 13%;
+                        }
+                    }
+                    h5 {
+                        font-size: 12px;
+                    }
+                    .inp {
+                        img {
+                            // top: 5px;
+                            padding: 8px 8px 0px 8px;
+                            width: 8%;
+                            height: 6%;
+                        }
+                        input {
+                            height: 38px;
+                            padding-left: 35px;
+                            font-size: 13px;
+                        }
+                    }
+                    .forgot-pass {
+                        font-size: 12px;
+                        width: 138px;
+                    }
+                    .sign-in {
+                        height: 41px;
+                        width: 159px;
+                        font-size: 24px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+            .hello {
+                width: 100%;
+                ._hello {
+                    h1 {
+                        font-size: 36px;
+                    }
+                    .sign-in-hello {
+                        height: 41px;
+                        width: 159px;
+                        font-size: 24px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:572px) {
+    ._background {
+        .cont {
+            .login {
+                .form-login {
+                    .inp {
+                        img {
+                            // top: 5px;
+                            padding: 8px 8px 0px 8px;
+                            width: 10%;
+                            height: 8%;
+                        }
+                    }
                 }
             }
         }

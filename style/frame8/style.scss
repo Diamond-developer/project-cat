@@ -22,12 +22,53 @@ $color-pink:#da585c;
 }
 
 .s-cat {
-    margin-top: 10%;
+    // border: 1px solid rgba(218, 88, 92, 0.5);
+    margin-top: 17%;
+    padding: 5%;
+    border-radius: 10px;
     h3 {
         font-weight: bold;
         font-family: $font-nunito;
         color: $color-pink;
         padding-bottom: 3%;
+    }
+}
+
+header {
+    width: 100%;
+    background-color: $color-pink;
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo {
+            width: 10%;
+        }
+        .menu-giua {
+            width: 43%;
+            margin-left: 30%;
+            display: flex;
+            align-items: center;
+            .layer1 {
+                visibility: hidden;
+            }
+            .menu-cap {
+                width: 75%;
+                a {
+                    padding-left: 9%;
+                    font-family: $font-nunito;
+                    font-size: 18px;
+                    color: white;
+                }
+            }
+        }
+        .menu-phai {
+            display: flex;
+            width: 10%;
+            a {
+                padding-left: 12%;
+            }
+        }
     }
 }
 
@@ -100,8 +141,12 @@ $color-pink:#da585c;
     }
 }
 
-.fl-r {
-    float: right;
+.fl-centent {
+    // float: right;
+    display: block;
+    // text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .checkou1t {
@@ -233,65 +278,40 @@ $color-pink:#da585c;
     }
 }
 
+.pay-method {
+    margin-left: 22%;
+    font-size: 20px;
+    font-family: $font-nunito;
+    font-weight: bold;
+}
+
+.inp-pay {
+    width: 30px;
+    height: 19px;
+    // background-color: $color-pink;
+}
+
+//footer
 footer {
     width: 100%;
-    height: 100px;
-    // margin-top: 45%;
-    position: relative;
     .bg {
         position: absolute;
         z-index: -1;
         width: 100%;
     }
-    .circle {
-        position: absolute;
-        right: 80px;
-        bottom: -160px;
-        z-index: 1;
-    }
-    .gach {
-        position: absolute;
-        bottom: 150px;
-        right: 450px;
-        z-index: 1;
-    }
-    .warring {
-        background-color: $color-pink;
-        border-radius: 20px;
-        width: 50%;
-        height: 250px;
-        position: absolute;
-        bottom: 175px;
-        left: 173px;
-        z-index: 1;
-        img {
-            // text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            margin-top: 5%;
-            margin-bottom: 2%;
-        }
-        h5 {
-            font-family: $font-nunito;
-            font-weight: bold;
-            font-size: 15px;
-            color: white;
-            padding-left: 10%;
-            padding-right: 10%;
-        }
-    }
     .footer-logo {
-        padding-top: 13%;
+        padding-top: 15%;
         display: flex;
         .kity-shop {
             width: 20%;
             padding-top: 6%;
             margin-left: 5%;
             .logo {
-                width: 75%;
-                height: 50%;
-                padding-left: 20%;
+                img {
+                    width: 65%;
+                    height: 55%;
+                    padding-left: 33%;
+                }
             }
             .icons {
                 text-align: center;
@@ -300,7 +320,7 @@ footer {
         .about-us {
             width: 20%;
             padding-top: 5%;
-            margin-left: 5%;
+            margin-left: 3%;
             .top {
                 font-family: $font-nunito;
                 font-size: 18px;
@@ -316,7 +336,7 @@ footer {
         .quick-link {
             width: 20%;
             padding-top: 5%;
-            margin-left: 5%;
+            margin-left: 3%;
             .top {
                 font-family: $font-nunito;
                 font-size: 18px;
@@ -337,6 +357,160 @@ footer {
                 font-size: 16px;
                 color: white;
                 font-weight: bold;
+            }
+            .inp {
+                display: flex;
+                .tex {
+                    margin-right: 3%;
+                    .ft-inp {
+                        border: none;
+                        border-radius: 3px;
+                        width: 250px;
+                        height: 35px;
+                        color: #DA585C;
+                    }
+                }
+                button {
+                    border: none;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 3px;
+                    img {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:992px) {
+    header {
+        .menu {
+            .menu-giua {
+                .layer1 {
+                    visibility: visible;
+                    margin-left: 100%;
+                    color: white;
+                }
+                .menu-cap {
+                    visibility: hidden;
+                    position: absolute;
+                    width: 20%;
+                    top: 42px;
+                    right: 35px;
+                    z-index: 10;
+                    border: 1px solid $color-pink;
+                    background-color: rgb(153, 147, 147);
+                    border-radius: 3px;
+                    a {
+                        display: block;
+                        color: $color-pink;
+                        text-align: right;
+                    }
+                }
+                &:hover .menu-cap {
+                    transition: 0.4s;
+                    visibility: visible;
+                }
+            }
+            .menu-phai {
+                visibility: hidden;
+                position: absolute;
+            }
+        }
+    }
+    .s-cat {
+        margin-top: 10%;
+    }
+    .ck1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        // margin: auto;
+        width: 80%;
+    }
+    .checkou1t {}
+    .pay-method {
+        margin-left: 10%;
+    }
+    footer {
+        height: 120px;
+        .footer-logo {
+            padding-top: 11%;
+            .kity-shop {
+                padding-top: 0%;
+                .logo {
+                    margin-top: 40px;
+                    img {
+                        width: 80%;
+                        height: 65%;
+                        // padding-left: 20%;
+                        display: block;
+                    }
+                }
+                .icons {
+                    height: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 20px;
+                        height: 16px;
+                        padding-left: 4px;
+                    }
+                }
+            }
+            .about-us {
+                width: 31%;
+                padding-top: 7%;
+                margin-left: 10%;
+                .top {
+                    opacity: 0;
+                    font-size: 0px;
+                }
+                .text1 {
+                    font-size: 11px;
+                    font-weight: lighter;
+                }
+            }
+            .quick-link {
+                width: 1%;
+                opacity: 0;
+                padding-top: 0%;
+                .top {
+                    font-size: 0px;
+                }
+                .text2 {
+                    font-size: 0px;
+                }
+            }
+            .update-our {
+                width: 40%;
+                padding-top: 8%;
+                margin-left: 20px;
+                span {
+                    visibility: hidden;
+                    font-size: 1px;
+                }
+                .inp {
+                    .tex {
+                        .ft-inp {
+                            width: 125px;
+                            height: 20px;
+                            font-size: 10px;
+                        }
+                    }
+                    button {
+                        margin-top: 4px;
+                        width: 20px;
+                        height: 20px;
+                        img {
+                            width: 15px;
+                            height: 15px;
+                            padding: 2px;
+                        }
+                    }
+                }
             }
         }
     }

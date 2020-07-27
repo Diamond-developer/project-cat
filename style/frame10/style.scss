@@ -31,6 +31,44 @@ $color-pink:#da585c;
     }
 }
 
+header {
+    width: 100%;
+    background-color: $color-pink;
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo {
+            width: 10%;
+        }
+        .menu-giua {
+            width: 43%;
+            margin-left: 30%;
+            display: flex;
+            align-items: center;
+            .layer1 {
+                visibility: hidden;
+            }
+            .menu-cap {
+                width: 75%;
+                a {
+                    padding-left: 9%;
+                    font-family: $font-nunito;
+                    font-size: 18px;
+                    color: white;
+                }
+            }
+        }
+        .menu-phai {
+            display: flex;
+            width: 10%;
+            a {
+                padding-left: 12%;
+            }
+        }
+    }
+}
+
 .s-cart {
     background-color: #fbeeef;
     display: flex;
@@ -102,14 +140,23 @@ $color-pink:#da585c;
 
 .form-order {
     margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     span {
         font-family: $font-nunito;
         font-size: 16px;
         display: block;
+        // font-weight: bold;
         b {
             font-size: 20px;
             color: $color-pink;
+            padding-left: 5%;
         }
+    }
+    i {
+        color: $color-pink;
+        font-size: 18px;
+        font-family: $font-nunito;
     }
 }
 
@@ -228,6 +275,230 @@ footer {
                 font-size: 16px;
                 color: white;
                 font-weight: bold;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    .bg {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+    .footer-logo {
+        padding-top: 15%;
+        display: flex;
+        .kity-shop {
+            width: 20%;
+            padding-top: 6%;
+            margin-left: 5%;
+            .logo {
+                img {
+                    width: 65%;
+                    height: 55%;
+                    padding-left: 33%;
+                }
+            }
+            .icons {
+                text-align: center;
+            }
+        }
+        .about-us {
+            width: 20%;
+            padding-top: 5%;
+            margin-left: 3%;
+            .top {
+                font-family: $font-nunito;
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+            }
+            .text1 {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .quick-link {
+            width: 20%;
+            padding-top: 5%;
+            margin-left: 3%;
+            .top {
+                font-family: $font-nunito;
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+            }
+            .text2 {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .update-our {
+            width: 26%;
+            padding-top: 8%;
+            span {
+                font-family: $font-nunito;
+                font-size: 16px;
+                color: white;
+                font-weight: bold;
+            }
+            .inp {
+                display: flex;
+                .tex {
+                    margin-right: 3%;
+                    .ft-inp {
+                        border: none;
+                        border-radius: 3px;
+                        width: 250px;
+                        height: 35px;
+                        color: #DA585C;
+                    }
+                }
+                button {
+                    border: none;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 3px;
+                    img {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:992px) {
+    header {
+        .menu {
+            .menu-giua {
+                .layer1 {
+                    visibility: visible;
+                    margin-left: 100%;
+                    color: white;
+                }
+                .menu-cap {
+                    visibility: hidden;
+                    position: absolute;
+                    width: 20%;
+                    top: 42px;
+                    right: 35px;
+                    z-index: 10;
+                    border: 1px solid $color-pink;
+                    background-color: rgb(153, 147, 147);
+                    border-radius: 3px;
+                    a {
+                        display: block;
+                        color: $color-pink;
+                        text-align: right;
+                    }
+                }
+                &:hover .menu-cap {
+                    transition: 0.4s;
+                    visibility: visible;
+                }
+            }
+            .menu-phai {
+                visibility: hidden;
+                position: absolute;
+            }
+        }
+    }
+    .form-order {
+        margin-left: 10%;
+        margin-right: 10%;
+        span {
+            font-size: 14px;
+            b {
+                font-size: 16px;
+            }
+        }
+        i {
+            font-size: 12px;
+        }
+    }
+    footer {
+        height: 120px;
+        .footer-logo {
+            padding-top: 11%;
+            .kity-shop {
+                padding-top: 0%;
+                .logo {
+                    margin-top: 40px;
+                    img {
+                        width: 80%;
+                        height: 65%;
+                        // padding-left: 20%;
+                        display: block;
+                    }
+                }
+                .icons {
+                    height: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 20px;
+                        height: 16px;
+                        padding-left: 4px;
+                    }
+                }
+            }
+            .about-us {
+                width: 31%;
+                padding-top: 7%;
+                margin-left: 10%;
+                .top {
+                    opacity: 0;
+                    font-size: 0px;
+                }
+                .text1 {
+                    font-size: 11px;
+                    font-weight: lighter;
+                }
+            }
+            .quick-link {
+                width: 1%;
+                opacity: 0;
+                padding-top: 0%;
+                .top {
+                    font-size: 0px;
+                }
+                .text2 {
+                    font-size: 0px;
+                }
+            }
+            .update-our {
+                width: 40%;
+                padding-top: 8%;
+                margin-left: 20px;
+                span {
+                    visibility: hidden;
+                    font-size: 1px;
+                }
+                .inp {
+                    .tex {
+                        .ft-inp {
+                            width: 125px;
+                            height: 20px;
+                            font-size: 10px;
+                        }
+                    }
+                    button {
+                        margin-top: 4px;
+                        width: 20px;
+                        height: 20px;
+                        img {
+                            width: 15px;
+                            height: 15px;
+                            padding: 2px;
+                        }
+                    }
+                }
             }
         }
     }

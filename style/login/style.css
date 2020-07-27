@@ -8,7 +8,7 @@
   background: #F0F3F3;
   background-image: url("./../../public/image/login/bgtron.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -18,7 +18,7 @@
     width: 80%;
     border-radius: 10px; }
     ._background .cont .login {
-      width: 60%; }
+      width: 100%; }
       ._background .cont .login .logo {
         position: absolute; }
       ._background .cont .login .form-login {
@@ -77,10 +77,10 @@
           font-size: 24px;
           font-weight: bold; }
     ._background .cont .hello {
-      width: 40%;
+      height: 100%;
       background-image: url(../../public/image/login/chanmeo-01.png);
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 100% 100%;
       border-radius: 0px 10px 10px 0px;
       display: flex;
       justify-content: center;
@@ -110,5 +110,46 @@
           color: #DC686B;
           font-size: 24px;
           font-weight: bold; }
+
+@media (max-width: 992px) {
+  ._background .cont .login .logo {
+    width: 15%; }
+  ._background .cont .login .form-login h3 {
+    font-size: 40px;
+    font-weight: bold; }
+  ._background .cont .login .form-login .icon img {
+    width: 13%; }
+  ._background .cont .login .form-login h5 {
+    font-size: 12px; }
+  ._background .cont .login .form-login .inp img {
+    padding: 8px 8px 0px 8px;
+    width: 8%;
+    height: 6%; }
+  ._background .cont .login .form-login .inp input {
+    height: 38px;
+    padding-left: 35px;
+    font-size: 13px; }
+  ._background .cont .login .form-login .forgot-pass {
+    font-size: 12px;
+    width: 138px; }
+  ._background .cont .login .form-login .sign-in {
+    height: 41px;
+    width: 159px;
+    font-size: 24px;
+    border-radius: 5px; }
+  ._background .cont .hello {
+    width: 100%; }
+    ._background .cont .hello ._hello h1 {
+      font-size: 36px; }
+    ._background .cont .hello ._hello .sign-in-hello {
+      height: 41px;
+      width: 159px;
+      font-size: 24px;
+      border-radius: 5px; } }
+@media (max-width: 572px) {
+  ._background .cont .login .form-login .inp img {
+    padding: 8px 8px 0px 8px;
+    width: 10%;
+    height: 8%; } }
 
 /*# sourceMappingURL=style.css.map */

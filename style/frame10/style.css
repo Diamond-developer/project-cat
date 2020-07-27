@@ -18,6 +18,35 @@
     color: #da585c;
     padding-bottom: 3%; }
 
+header {
+  width: 100%;
+  background-color: #da585c; }
+  header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    header .menu .logo {
+      width: 10%; }
+    header .menu .menu-giua {
+      width: 43%;
+      margin-left: 30%;
+      display: flex;
+      align-items: center; }
+      header .menu .menu-giua .layer1 {
+        visibility: hidden; }
+      header .menu .menu-giua .menu-cap {
+        width: 75%; }
+        header .menu .menu-giua .menu-cap a {
+          padding-left: 9%;
+          font-family: "Nunito", sans-serif;
+          font-size: 18px;
+          color: white; }
+    header .menu .menu-phai {
+      display: flex;
+      width: 10%; }
+      header .menu .menu-phai a {
+        padding-left: 12%; }
+
 .s-cart {
   background-color: #fbeeef;
   display: flex;
@@ -70,14 +99,21 @@
       height: 100%; }
 
 .form-order {
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%; }
   .form-order span {
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     display: block; }
     .form-order span b {
       font-size: 20px;
-      color: #da585c; }
+      color: #da585c;
+      padding-left: 5%; }
+  .form-order i {
+    color: #da585c;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif; }
 
 .card-icon {
   margin: auto;
@@ -175,5 +211,171 @@ footer {
         font-size: 16px;
         color: white;
         font-weight: bold; }
+
+footer {
+  width: 100%; }
+  footer .bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%; }
+  footer .footer-logo {
+    padding-top: 15%;
+    display: flex; }
+    footer .footer-logo .kity-shop {
+      width: 20%;
+      padding-top: 6%;
+      margin-left: 5%; }
+      footer .footer-logo .kity-shop .logo img {
+        width: 65%;
+        height: 55%;
+        padding-left: 33%; }
+      footer .footer-logo .kity-shop .icons {
+        text-align: center; }
+    footer .footer-logo .about-us {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 3%; }
+      footer .footer-logo .about-us .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .about-us .text1 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .quick-link {
+      width: 20%;
+      padding-top: 5%;
+      margin-left: 3%; }
+      footer .footer-logo .quick-link .top {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .quick-link .text2 {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white; }
+    footer .footer-logo .update-our {
+      width: 26%;
+      padding-top: 8%; }
+      footer .footer-logo .update-our span {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: white;
+        font-weight: bold; }
+      footer .footer-logo .update-our .inp {
+        display: flex; }
+        footer .footer-logo .update-our .inp .tex {
+          margin-right: 3%; }
+          footer .footer-logo .update-our .inp .tex .ft-inp {
+            border: none;
+            border-radius: 3px;
+            width: 250px;
+            height: 35px;
+            color: #DA585C; }
+        footer .footer-logo .update-our .inp button {
+          border: none;
+          width: 35px;
+          height: 35px;
+          border-radius: 3px; }
+          footer .footer-logo .update-our .inp button img {
+            padding: 5px; }
+
+@media (max-width: 992px) {
+  header .menu .menu-giua .layer1 {
+    visibility: visible;
+    margin-left: 100%;
+    color: white; }
+  header .menu .menu-giua .menu-cap {
+    visibility: hidden;
+    position: absolute;
+    width: 20%;
+    top: 42px;
+    right: 35px;
+    z-index: 10;
+    border: 1px solid #da585c;
+    background-color: #999393;
+    border-radius: 3px; }
+    header .menu .menu-giua .menu-cap a {
+      display: block;
+      color: #da585c;
+      text-align: right; }
+  header .menu .menu-giua:hover .menu-cap {
+    transition: 0.4s;
+    visibility: visible; }
+  header .menu .menu-phai {
+    visibility: hidden;
+    position: absolute; }
+
+  .form-order {
+    margin-left: 10%;
+    margin-right: 10%; }
+    .form-order span {
+      font-size: 14px; }
+      .form-order span b {
+        font-size: 16px; }
+    .form-order i {
+      font-size: 12px; }
+
+  footer {
+    height: 120px; }
+    footer .footer-logo {
+      padding-top: 11%; }
+      footer .footer-logo .kity-shop {
+        padding-top: 0%; }
+        footer .footer-logo .kity-shop .logo {
+          margin-top: 40px; }
+          footer .footer-logo .kity-shop .logo img {
+            width: 80%;
+            height: 65%;
+            display: block; }
+        footer .footer-logo .kity-shop .icons {
+          height: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          footer .footer-logo .kity-shop .icons img {
+            width: 20px;
+            height: 16px;
+            padding-left: 4px; }
+      footer .footer-logo .about-us {
+        width: 31%;
+        padding-top: 7%;
+        margin-left: 10%; }
+        footer .footer-logo .about-us .top {
+          opacity: 0;
+          font-size: 0px; }
+        footer .footer-logo .about-us .text1 {
+          font-size: 11px;
+          font-weight: lighter; }
+      footer .footer-logo .quick-link {
+        width: 1%;
+        opacity: 0;
+        padding-top: 0%; }
+        footer .footer-logo .quick-link .top {
+          font-size: 0px; }
+        footer .footer-logo .quick-link .text2 {
+          font-size: 0px; }
+      footer .footer-logo .update-our {
+        width: 40%;
+        padding-top: 8%;
+        margin-left: 20px; }
+        footer .footer-logo .update-our span {
+          visibility: hidden;
+          font-size: 1px; }
+        footer .footer-logo .update-our .inp .tex .ft-inp {
+          width: 125px;
+          height: 20px;
+          font-size: 10px; }
+        footer .footer-logo .update-our .inp button {
+          margin-top: 4px;
+          width: 20px;
+          height: 20px; }
+          footer .footer-logo .update-our .inp button img {
+            width: 15px;
+            height: 15px;
+            padding: 2px; } }
 
 /*# sourceMappingURL=style.css.map */
