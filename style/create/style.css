@@ -58,7 +58,7 @@
           font-size: 24px;
           font-weight: bold; }
     ._background .cont .login {
-      width: 60%; }
+      width: 100%; }
       ._background .cont .login .form-login {
         width: 60%;
         text-align: center;
@@ -142,55 +142,82 @@
           font-weight: bold; }
 
 @media (max-width: 992px) {
-  ._background .cont .hello ._hello h1 {
-    font-size: 36px; }
-  ._background .cont .hello ._hello .sign-in-hello {
-    height: 41px;
-    width: 159px;
-    font-size: 24px;
-    border-radius: 5px; }
+  ._background .cont .hello {
+    width: 100%;
+    height: 100%; }
+    ._background .cont .hello ._hello h1 {
+      font-size: 25px; }
+    ._background .cont .hello ._hello span {
+      font-size: 13px; }
+    ._background .cont .hello ._hello .sign-in-hello {
+      height: 41px;
+      width: 159px;
+      font-size: 24px;
+      border-radius: 5px; }
+    ._background .cont .hello .logo {
+      width: 35%;
+      height: 19%; }
   ._background .cont .login .logo {
-    width: 10%; }
+    width: 15%; }
+  ._background .cont .login .form-login {
+    width: 88%; }
+    ._background .cont .login .form-login h3 {
+      font-size: 40px;
+      font-weight: bold; }
+    ._background .cont .login .form-login .icon img {
+      width: 13%; }
+    ._background .cont .login .form-login h5 {
+      font-size: 12px; }
+    ._background .cont .login .form-login ._col-2 {
+      display: flex; }
+      ._background .cont .login .form-login ._col-2 .inp-right {
+        padding-top: 3%;
+        margin-left: 2%; }
+        ._background .cont .login .form-login ._col-2 .inp-right img {
+          padding: 8px 8px 0px 8px;
+          width: 8%;
+          height: 6%; }
+        ._background .cont .login .form-login ._col-2 .inp-right input {
+          height: 38px;
+          padding-left: 35px;
+          font-size: 13px; }
+    ._background .cont .login .form-login .inp img {
+      padding: 8px 8px 0px 8px;
+      width: 8%;
+      height: 6%; }
+    ._background .cont .login .form-login .inp input {
+      height: 38px;
+      padding-left: 35px;
+      font-size: 13px; }
+    ._background .cont .login .form-login .forgot-pass {
+      font-size: 12px;
+      width: 138px; }
+    ._background .cont .login .form-login .sign-in {
+      height: 41px;
+      width: 159px;
+      font-size: 24px;
+      border-radius: 5px; } }
+@media (max-width: 572px) {
+  ._background .cont .hello .logo {
+    width: 20%;
+    height: 19%; }
+  ._background .cont .hello ._hello {
+    margin-top: 16%; }
+    ._background .cont .hello ._hello .sign-in-hello {
+      height: 30px;
+      width: 90px;
+      font-size: 16px; }
   ._background .cont .login .form-login h3 {
-    font-size: 33px;
-    font-weight: bold; }
-  ._background .cont .login .form-login .icon img {
-    width: 13%; }
-  ._background .cont .login .form-login h5 {
-    font-size: 12px; }
+    font-size: 30px; }
   ._background .cont .login .form-login .inp img {
     padding: 8px 8px 0px 8px;
-    width: 4%;
-    height: 5%; }
-  ._background .cont .login .form-login .inp input {
-    height: 38px;
-    padding-left: 35px;
-    font-size: 13px; }
-  ._background .cont .login .form-login ._col-2 .inp img {
-    padding: 8px 8px 0px 8px;
-    width: 4%;
-    height: 5%; }
-  ._background .cont .login .form-login ._col-2 .inp input {
-    height: 38px;
-    padding-left: 35px;
-    font-size: 13px; }
-  ._background .cont .login .form-login ._col-2 .inp-right img {
-    padding: 8px 8px 0px 8px;
-    width: 4%;
-    height: 5%; }
-  ._background .cont .login .form-login ._col-2 .inp-right input {
-    height: 38px;
-    padding-left: 35px;
-    font-size: 13px; }
-  ._background .cont .login .form-login .form-check {
-    font-size: 14px; }
-  ._background .cont .login .form-login .forgot-pass {
-    font-size: 12px;
-    width: 138px; }
+    width: 10%;
+    height: 8%; }
+  ._background .cont .login .form-login .form-check .form-check-label {
+    font-size: 12px; }
   ._background .cont .login .form-login .sign-in {
-    height: 41px;
-    width: 159px;
-    font-size: 24px;
-    border-radius: 5px; } }
+    height: 30px;
+    width: 90px;
+    font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */

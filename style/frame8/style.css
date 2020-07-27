@@ -377,5 +377,12 @@ footer {
             width: 15px;
             height: 15px;
             padding: 2px; } }
+@media (max-width: 572px) {
+  footer .footer-logo {
+    padding-top: 7%; }
+    footer .footer-logo .about-us .text1 {
+      font-size: 8px; }
+    footer .footer-logo .update-our .inp .tex .ft-inp {
+      width: 90px; } }
 
 /*# sourceMappingURL=style.css.map */

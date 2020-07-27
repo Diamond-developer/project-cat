@@ -503,3 +503,35 @@ footer {
         }
     }
 }
+
+@media(max-width:572px) {
+    footer {
+        .footer-logo {
+            padding-top: 6%;
+            .about-us {
+                .text1 {
+                    font-size: 8px;
+                }
+            }
+            .update-our {
+                .inp {
+                    .tex {
+                        .ft-inp {
+                            width: 90px;
+                        }
+                    }
+                }
+            }
+            .kity-shop {
+                .logo {
+                    height: 35%;
+                    img {
+                        width: 140%;
+                        height: 100%;
+                        padding-left: 0%;
+                    }
+                }
+            }
+        }
+    }
+}

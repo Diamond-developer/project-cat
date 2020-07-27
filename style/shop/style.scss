@@ -186,6 +186,26 @@ main {
                     text-align: center;
                 }
             }
+            .prod-delete {
+                // margin: 0% 5% 0% 5%;
+                margin-left: 5px;
+                margin-right: 5px;
+                position: relative;
+                h3 {
+                    margin-top: 2%;
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: $font-nunito;
+                    text-align: center;
+                }
+                h5 {
+                    font-size: 24px;
+                    font-weight: lighter;
+                    color: $color-pink;
+                    font-family: $font-nunito;
+                    text-align: center;
+                }
+            }
         }
     }
 }
@@ -441,6 +461,19 @@ footer {
                         font-size: 13px;
                     }
                 }
+                .prod-delete {
+                    img {
+                        width: 100%;
+                        // height: 50;
+                    }
+                    h3 {
+                        font-size: 8px;
+                        margin-top: 5%;
+                    }
+                    h5 {
+                        font-size: 13px;
+                    }
+                }
             }
         }
     }
@@ -520,6 +553,106 @@ footer {
                             height: 15px;
                             padding: 2px;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 572px) {
+    header {
+        height: 200px;
+        .menu {
+            .menu-between {
+                visibility: hidden;
+                position: absolute;
+                .between-child {
+                    margin-left: 0%;
+                }
+            }
+            ._item {
+                .layer1 {
+                    top: -51px;
+                    right: -245px;
+                }
+                .layer2 {
+                    left: 212px;
+                }
+            }
+        }
+        .sendUs {
+            margin-top: 13%;
+            margin-left: 8%;
+            font-size: 20px;
+        }
+        .yourRequest {
+            margin-top: 20%;
+            margin-left: 8%;
+            font-size: 20px;
+        }
+    }
+    //main
+    main {
+        display: inline;
+        .main-left {
+            width: 100%;
+            display: flex;
+            .catego {
+                margin-left: 2%;
+                width: 46%;
+                margin-right: 2%;
+            }
+            .filter {
+                margin-left: 2%;
+                width: 46%;
+                // margin-right: 2%;
+                .circle-- {
+                    width: 90%;
+                }
+            }
+            .ft-left {
+                visibility: hidden;
+                position: absolute;
+            }
+        }
+        .main-right {
+            width: 90%;
+            select {
+                margin-bottom: 0px;
+            }
+            .cate {
+                .prod-delete {
+                    visibility: hidden;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    //footer
+    footer {
+        .footer-logo {
+            padding-top: 7%;
+            .about-us {
+                padding-top: 8%;
+                .text1 {
+                    font-size: 7px;
+                }
+            }
+            .update-our {
+                .inp {
+                    .tex {
+                        .ft-inp {
+                            width: 95px;
+                        }
+                    }
+                }
+            }
+            .kity-shop {
+                .icons {
+                    img {
+                        width: 17px;
+                        height: 12px;
                     }
                 }
             }

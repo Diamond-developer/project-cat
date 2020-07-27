@@ -77,7 +77,7 @@ main {
         display: flex;
         margin-top: 10%;
         .product {
-            width: 45%;
+            width: 100%;
             .max-width {
                 // text-align: center;
                 display: block;
@@ -106,7 +106,7 @@ main {
             }
         }
         .detail {
-            width: 55%;
+            width: 100%;
             padding-right: 5%;
             h1 {
                 font-family: $font-nunito;
@@ -649,12 +649,12 @@ footer {
                 .icon1 {
                     width: 35%;
                     bottom: 38px;
-                    left: 37px;
+                    left: 46px;
                 }
                 h3 {
                     font-size: 12px;
                     bottom: 10px;
-                    left: 58px;
+                    left: 75px;
                 }
             }
             .anh2 {
@@ -674,12 +674,12 @@ footer {
                 .icon2 {
                     width: 35%;
                     bottom: 38px;
-                    left: 37px;
+                    left: 46px;
                 }
                 h3 {
                     font-size: 12px;
                     bottom: 10px;
-                    left: 58px;
+                    left: 75px;
                 }
             }
             .anh3 {
@@ -688,8 +688,8 @@ footer {
                 }
                 .img3 {
                     width: 50%;
-                    left: 20px;
-                    top: 28px;
+                    left: 33px;
+                    top: 23px;
                 }
                 .tex3 {
                     font-size: 8px;
@@ -699,12 +699,12 @@ footer {
                 .icon3 {
                     width: 35%;
                     bottom: 38px;
-                    left: 37px;
+                    left: 46px;
                 }
                 h3 {
                     font-size: 12px;
                     bottom: 10px;
-                    left: 58px;
+                    left: 75px;
                 }
             }
             .anh4 {
@@ -713,8 +713,8 @@ footer {
                 }
                 .img4 {
                     width: 50%;
-                    left: 24px;
-                    top: 20px;
+                    left: 30px;
+                    top: 27px;
                 }
                 .tex4 {
                     font-size: 8px;
@@ -724,12 +724,12 @@ footer {
                 .icon4 {
                     width: 35%;
                     bottom: 38px;
-                    left: 37px;
+                    left: 46px;
                 }
                 h3 {
                     font-size: 12px;
                     bottom: 10px;
-                    left: 58px;
+                    left: 75px;
                 }
             }
         }
@@ -852,6 +852,137 @@ footer {
             }
         }
     }
+    .col {
+        .btn {
+            width: 25%;
+        }
+    }
 }
 
-@media(max-width:572px) {}
+@media(max-width:572px) {
+    .col {
+        .btn {
+            width: 25%;
+        }
+    }
+    .mr-t {
+        margin-top: 5%;
+    }
+    header {
+        height: 123px;
+        background-size: cover;
+        background-attachment: unset;
+        .menu {
+            ._item {
+                .layer1 {
+                    top: -55px;
+                    left: 275px;
+                }
+                .layer2 {
+                    top: -20px;
+                    left: 235px;
+                }
+            }
+        }
+        .sendUs {
+            font-size: 20px;
+        }
+        .yourRequest {
+            font-size: 20px;
+        }
+    }
+    main {
+        .main1 {
+            // .mr-t {
+            .detail {
+                padding-left: 6%;
+                h1 {
+                    font-size: 13px;
+                    margin-top: 5%;
+                }
+            }
+            // }
+        }
+        .main2 {
+            .anh1 {
+                h3 {
+                    left: 75px;
+                }
+                .img1 {
+                    width: 57%;
+                }
+                .tex1 {
+                    font-size: 9px;
+                    bottom: 62px;
+                }
+            }
+            .anh2 {
+                h3 {
+                    left: 75px;
+                }
+                .img2 {
+                    width: 57%;
+                }
+                .tex2 {
+                    font-size: 9px;
+                    bottom: 62px;
+                }
+            }
+            .anh3 {
+                visibility: hidden;
+                position: absolute;
+            }
+            .anh4 {
+                visibility: hidden;
+                position: absolute;
+            }
+        }
+        .main3 {
+            .cua {
+                .cua1 {
+                    width: 100%;
+                    .cua-img {
+                        width: 24%;
+                        height: 73%;
+                    }
+                    .tex3 {
+                        margin-left: 8px;
+                    }
+                }
+                .date3 {
+                    margin-left: 5%;
+                    img {
+                        width: 32%;
+                        height: 14%;
+                    }
+                }
+            }
+            h4 {
+                font-size: 21px;
+            }
+            h5 {
+                font-size: 17px;
+            }
+        }
+    }
+    footer {
+        .footer-logo {
+            padding-top: 7%;
+            .about-us {
+                width: 36%;
+                .text1 {
+                    font-size: 8px;
+                }
+            }
+            .update-our {
+                .inp {
+                    .tex {
+                        .ft-inp {
+                            width: 90px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

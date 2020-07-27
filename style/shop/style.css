@@ -137,6 +137,22 @@ main {
           color: #da585c;
           font-family: "Nunito", sans-serif;
           text-align: center; }
+      main .main-right .cate .prod-delete {
+        margin-left: 5px;
+        margin-right: 5px;
+        position: relative; }
+        main .main-right .cate .prod-delete h3 {
+          margin-top: 2%;
+          font-size: 18px;
+          font-weight: bold;
+          font-family: "Nunito", sans-serif;
+          text-align: center; }
+        main .main-right .cate .prod-delete h5 {
+          font-size: 24px;
+          font-weight: lighter;
+          color: #da585c;
+          font-family: "Nunito", sans-serif;
+          text-align: center; }
 
 .page {
   width: 100%;
@@ -320,6 +336,13 @@ footer {
       margin-top: 5%; }
     main .main-right .cate .prod h5 {
       font-size: 13px; }
+    main .main-right .cate .prod-delete img {
+      width: 100%; }
+    main .main-right .cate .prod-delete h3 {
+      font-size: 8px;
+      margin-top: 5%; }
+    main .main-right .cate .prod-delete h5 {
+      font-size: 13px; }
 
   footer {
     height: 120px; }
@@ -379,5 +402,63 @@ footer {
             width: 15px;
             height: 15px;
             padding: 2px; } }
+@media (max-width: 572px) {
+  header {
+    height: 200px; }
+    header .menu .menu-between {
+      visibility: hidden;
+      position: absolute; }
+      header .menu .menu-between .between-child {
+        margin-left: 0%; }
+    header .menu ._item .layer1 {
+      top: -51px;
+      right: -245px; }
+    header .menu ._item .layer2 {
+      left: 212px; }
+    header .sendUs {
+      margin-top: 13%;
+      margin-left: 8%;
+      font-size: 20px; }
+    header .yourRequest {
+      margin-top: 20%;
+      margin-left: 8%;
+      font-size: 20px; }
+
+  main {
+    display: inline; }
+    main .main-left {
+      width: 100%;
+      display: flex; }
+      main .main-left .catego {
+        margin-left: 2%;
+        width: 46%;
+        margin-right: 2%; }
+      main .main-left .filter {
+        margin-left: 2%;
+        width: 46%; }
+        main .main-left .filter .circle-- {
+          width: 90%; }
+      main .main-left .ft-left {
+        visibility: hidden;
+        position: absolute; }
+    main .main-right {
+      width: 90%; }
+      main .main-right select {
+        margin-bottom: 0px; }
+      main .main-right .cate .prod-delete {
+        visibility: hidden;
+        position: absolute; }
+
+  footer .footer-logo {
+    padding-top: 7%; }
+    footer .footer-logo .about-us {
+      padding-top: 8%; }
+      footer .footer-logo .about-us .text1 {
+        font-size: 7px; }
+    footer .footer-logo .update-our .inp .tex .ft-inp {
+      width: 95px; }
+    footer .footer-logo .kity-shop .icons img {
+      width: 17px;
+      height: 12px; } }
 
 /*# sourceMappingURL=style.css.map */

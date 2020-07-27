@@ -377,5 +377,18 @@ footer {
             width: 15px;
             height: 15px;
             padding: 2px; } }
+@media (max-width: 572px) {
+  footer .footer-logo {
+    padding-top: 6%; }
+    footer .footer-logo .about-us .text1 {
+      font-size: 8px; }
+    footer .footer-logo .update-our .inp .tex .ft-inp {
+      width: 90px; }
+    footer .footer-logo .kity-shop .logo {
+      height: 35%; }
+      footer .footer-logo .kity-shop .logo img {
+        width: 140%;
+        height: 100%;
+        padding-left: 0%; } }
 
 /*# sourceMappingURL=style.css.map */

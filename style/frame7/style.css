@@ -244,6 +244,13 @@ footer {
   .checkou1t {
     background-color: white;
     height: 175px; }
+    .checkou1t .total b {
+      font-size: 13px; }
+    .checkou1t .total span {
+      font-size: 15px; }
+    .checkou1t .total .price {
+      font-size: 13px;
+      padding-top: 3px; }
 
   footer {
     height: 120px; }
@@ -293,6 +300,84 @@ footer {
           font-size: 1px; }
         footer .footer-logo .update-our .inp .tex .ft-inp {
           width: 125px;
+          height: 20px;
+          font-size: 10px; }
+        footer .footer-logo .update-our .inp button {
+          margin-top: 4px;
+          width: 20px;
+          height: 20px; }
+          footer .footer-logo .update-our .inp button img {
+            width: 15px;
+            height: 15px;
+            padding: 2px; } }
+@media (max-width: 572px) {
+  header .menu .menu-giua .menu-cap {
+    top: 25px;
+    right: 18px; }
+
+  .ckrow .s-cat .s-cart {
+    height: 100px; }
+    .ckrow .s-cat .s-cart img {
+      height: 85%; }
+    .ckrow .s-cat .s-cart .between h5 {
+      font-size: 8px;
+      padding-bottom: 0px;
+      padding-top: 10%;
+      margin-bottom: 0px; }
+    .ckrow .s-cat .s-cart .between span {
+      font-size: 10px; }
+    .ckrow .s-cat .s-cart .rg {
+      padding-top: 12%; }
+      .ckrow .s-cat .s-cart .rg input {
+        height: 40%; }
+
+  footer {
+    height: 120px; }
+    footer .footer-logo {
+      padding-top: 12%; }
+      footer .footer-logo .kity-shop {
+        padding-top: 0%; }
+        footer .footer-logo .kity-shop .logo {
+          margin-top: 20px; }
+          footer .footer-logo .kity-shop .logo img {
+            width: 70%;
+            height: 65%;
+            display: block; }
+        footer .footer-logo .kity-shop .icons {
+          height: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          footer .footer-logo .kity-shop .icons img {
+            width: 10px;
+            height: 10px;
+            padding-left: 1px; }
+      footer .footer-logo .about-us {
+        width: 30%;
+        padding-top: 3%;
+        margin-left: 10%; }
+        footer .footer-logo .about-us .top {
+          opacity: 0;
+          font-size: 0px; }
+        footer .footer-logo .about-us .text1 {
+          font-size: 8px;
+          font-weight: lighter; }
+      footer .footer-logo .quick-link {
+        width: 1%;
+        opacity: 0;
+        padding-top: 0%; }
+        footer .footer-logo .quick-link .top {
+          font-size: 0px; }
+        footer .footer-logo .quick-link .text2 {
+          font-size: 0px; }
+      footer .footer-logo .update-our {
+        width: 30%;
+        padding-top: 0%; }
+        footer .footer-logo .update-our span {
+          visibility: hidden;
+          font-size: 1px; }
+        footer .footer-logo .update-our .inp .tex .ft-inp {
+          width: 80px;
           height: 20px;
           font-size: 10px; }
         footer .footer-logo .update-our .inp button {

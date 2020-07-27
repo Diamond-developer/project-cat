@@ -54,7 +54,7 @@ main .main1 {
   display: flex;
   margin-top: 10%; }
   main .main1 .product {
-    width: 45%; }
+    width: 100%; }
     main .main1 .product .max-width {
       display: block;
       margin-left: auto;
@@ -75,7 +75,7 @@ main .main1 {
           transition: 0.8s;
           border: 1px solid white; }
   main .main1 .detail {
-    width: 55%;
+    width: 100%;
     padding-right: 5%; }
     main .main1 .detail h1 {
       font-family: "Nunito", sans-serif;
@@ -467,11 +467,11 @@ footer {
     main .main2 .anh1 .icon1 {
       width: 35%;
       bottom: 38px;
-      left: 37px; }
+      left: 46px; }
     main .main2 .anh1 h3 {
       font-size: 12px;
       bottom: 10px;
-      left: 58px; }
+      left: 75px; }
     main .main2 .anh2 img {
       width: 85%; }
     main .main2 .anh2 .img2 {
@@ -485,17 +485,17 @@ footer {
     main .main2 .anh2 .icon2 {
       width: 35%;
       bottom: 38px;
-      left: 37px; }
+      left: 46px; }
     main .main2 .anh2 h3 {
       font-size: 12px;
       bottom: 10px;
-      left: 58px; }
+      left: 75px; }
     main .main2 .anh3 img {
       width: 85%; }
     main .main2 .anh3 .img3 {
       width: 50%;
-      left: 20px;
-      top: 28px; }
+      left: 33px;
+      top: 23px; }
     main .main2 .anh3 .tex3 {
       font-size: 8px;
       bottom: 52px;
@@ -503,17 +503,17 @@ footer {
     main .main2 .anh3 .icon3 {
       width: 35%;
       bottom: 38px;
-      left: 37px; }
+      left: 46px; }
     main .main2 .anh3 h3 {
       font-size: 12px;
       bottom: 10px;
-      left: 58px; }
+      left: 75px; }
     main .main2 .anh4 img {
       width: 85%; }
     main .main2 .anh4 .img4 {
       width: 50%;
-      left: 24px;
-      top: 20px; }
+      left: 30px;
+      top: 27px; }
     main .main2 .anh4 .tex4 {
       font-size: 8px;
       bottom: 52px;
@@ -521,11 +521,11 @@ footer {
     main .main2 .anh4 .icon4 {
       width: 35%;
       bottom: 38px;
-      left: 37px; }
+      left: 46px; }
     main .main2 .anh4 h3 {
       font-size: 12px;
       bottom: 10px;
-      left: 58px; }
+      left: 75px; }
   main .main3 h3 {
     font-size: 20px; }
   main .main3 .cua .cua1 .cua-img {
@@ -604,6 +604,81 @@ footer {
           footer .footer-logo .update-our .inp button img {
             width: 15px;
             height: 15px;
-            padding: 2px; } }
+            padding: 2px; }
+
+  .col .btn {
+    width: 25%; } }
+@media (max-width: 572px) {
+  .col .btn {
+    width: 25%; }
+
+  .mr-t {
+    margin-top: 5%; }
+
+  header {
+    height: 123px;
+    background-size: cover;
+    background-attachment: unset; }
+    header .menu ._item .layer1 {
+      top: -55px;
+      left: 275px; }
+    header .menu ._item .layer2 {
+      top: -20px;
+      left: 235px; }
+    header .sendUs {
+      font-size: 20px; }
+    header .yourRequest {
+      font-size: 20px; }
+
+  main .main1 .detail {
+    padding-left: 6%; }
+    main .main1 .detail h1 {
+      font-size: 13px;
+      margin-top: 5%; }
+  main .main2 .anh1 h3 {
+    left: 75px; }
+  main .main2 .anh1 .img1 {
+    width: 57%; }
+  main .main2 .anh1 .tex1 {
+    font-size: 9px;
+    bottom: 62px; }
+  main .main2 .anh2 h3 {
+    left: 75px; }
+  main .main2 .anh2 .img2 {
+    width: 57%; }
+  main .main2 .anh2 .tex2 {
+    font-size: 9px;
+    bottom: 62px; }
+  main .main2 .anh3 {
+    visibility: hidden;
+    position: absolute; }
+  main .main2 .anh4 {
+    visibility: hidden;
+    position: absolute; }
+  main .main3 .cua .cua1 {
+    width: 100%; }
+    main .main3 .cua .cua1 .cua-img {
+      width: 24%;
+      height: 73%; }
+    main .main3 .cua .cua1 .tex3 {
+      margin-left: 8px; }
+  main .main3 .cua .date3 {
+    margin-left: 5%; }
+    main .main3 .cua .date3 img {
+      width: 32%;
+      height: 14%; }
+  main .main3 h4 {
+    font-size: 21px; }
+  main .main3 h5 {
+    font-size: 17px; }
+
+  footer .footer-logo {
+    padding-top: 7%; }
+    footer .footer-logo .about-us {
+      width: 36%; }
+      footer .footer-logo .about-us .text1 {
+        font-size: 8px; }
+    footer .footer-logo .update-our .inp .tex .ft-inp {
+      width: 90px; } }
 
 /*# sourceMappingURL=style.css.map */
